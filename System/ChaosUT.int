@@ -1,0 +1,23 @@
+[Public]
+Object=(Name=ChaosUT.ChaosUTMutators,Class=Class,MetaClass=Engine.Mutator,Description="ChaosUT V1.1 Mutator, Use this mutator for Chaotic UT fun :)")
+Object=(Name=ChaosUT.ChaosUTModMenuItem,Class=Class, MetaClass=UMenu.UMenuModMenuItem, Description="ChaosUT Config,Configure ChaosUT")
+Object=(Name=ChaosUT.Sword,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Bastard Sword") 
+Object=(Name=ChaosUT.Crossbow,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Crossbow") 
+Object=(Name=ChaosUT.ExplosiveCrossbow,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Explosive Crossbow") 
+Object=(Name=ChaosUT.PoisonCrossbow,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Poison Crossbow") 
+Object=(Name=ChaosUT.CUTSG,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="CAS12") 
+Object=(Name=ChaosUT.CUTESG,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="CAS12 (Explosive)") 
+Object=(Name=ChaosUT.CUTAPSG,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="CAS12 (Armor Piercing)") 
+Object=(Name=ChaosUT.CUTAG,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Utility Gun (Air Only)") 
+Object=(Name=ChaosUT.CUTUG,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Utility Gun (Fire)") 
+Object=(Name=ChaosUT.CUTIG,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Utility Gun (Ice)") 
+Object=(Name=ChaosUT.Flak2,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Claw (flak mode)") 
+Object=(Name=ChaosUT.Flak2Proxy,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Claw (proxy mode)") 
+Object=(Name=ChaosUT.Flak2Melee,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Claw (melee mode)") 
+Object=(Name=ChaosUT.ProxyArm,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Proxy Mines") 
+Object=(Name=ChaosUT.Sniper2,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Chaos Sniper Rifle") 
+Object=(Name=ChaosUT.Sniper_RPB,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Chaos RPB Sniper Rifle") 
+Object=(Name=ChaosUT.VortexArm,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Gravity Vortex") 
+Object=(Name=ChaosUT.TurretLauncher,Class=Class,MetaClass=Botpack.TournamentWeapon,Description="Turret Destination Module"
+
+Object=(Name=Engine.GameInfo,Class=Class,MetaClass=Engine.Info,Description="ChaosUT,Chaos UT") 

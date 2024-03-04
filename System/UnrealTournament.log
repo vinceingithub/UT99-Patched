@@ -1,0 +1,178 @@
+﻿Log: Log file open, 03/04/24 11:33:55
+Init: Name subsystem initialized
+Init: Version: 469
+Init: Revision: d (Release)
+Init: Compiled: Dec  9 2023 12:11:13
+Init: Command line: 
+Init: Base directory: D:\Downloads\Unreal Tournament 1999 GOTY\System\
+Init: Character set: Unicode
+Log: Bound to Engine.dll
+Log: Bound to Core.dll
+Log: Bound to Window.dll
+Init: Object subsystem initialized
+Init: Detected: Microsoft Windows NT 6.2 (Build: 9200)
+Log: Enabling Data Executing Prevention
+Init: Computer: VINCEPC
+Init: User: vince
+Init: Memory total: Phys=4194303K Pagef=4194303K Virt=4194176K
+Init: Working set: 32000 / 159000
+Init: CPU Page size=4096, Processors=12
+Init: CPU Detected: AMD Ryzen 5 5600X 6-Core Processor              (AuthenticAMD)
+Init: CPU Features: INVARIANT_TSC CMov FPU RDTSC PAE MMX SSE SSE2 SSE3 SSSE3 SSE4_1 SSE4_2 AVX AVX2
+Init: Timer Frequency=4199.999580 MHz - Timing Source = RDTSC
+Init: Unreal engine initialized
+Log: Bound to WinDrv.dll
+Init: Enhanced Pointer Precision Disabled
+Init: Initializing DirectDraw
+Init: DirectDraw drivers detected:
+Init:    display (Controlador de pantalla primaria)
+Init: DirectDraw: Enumerated Display Modes:
+Init: DirectDraw: Mode 640x480x32
+Init: DirectDraw: Mode 720x400x32
+Init: DirectDraw: Mode 720x480x32
+Init: DirectDraw: Mode 720x576x32
+Init: DirectDraw: Mode 800x600x32
+Init: DirectDraw: Mode 1024x768x32
+Init: DirectDraw: Mode 1128x634x32
+Init: DirectDraw: Mode 1280x720x32
+Init: DirectDraw: Mode 1280x960x32
+Init: DirectDraw: Mode 1280x1024x32
+Init: DirectDraw: Mode 1366x768x32
+Init: DirectDraw: Mode 1440x900x32
+Init: DirectDraw: Mode 1600x900x32
+Init: DirectDraw: Mode 1680x1050x32
+Init: DirectDraw: Mode 1760x990x32
+Init: DirectDraw: Mode 1920x1080x32
+Init: DirectDraw initialized successfully
+Init: Initializing Mouse Input Handler: Raw Input
+Init: Client initialized
+Log: Bound to Render.dll
+Init: Lighting subsystem initialized
+Init: Rendering initialized
+Log: LoadMap: Entry
+Log: Bound to Fire.dll
+Log: Bound to IpDrv.dll
+Log: Game class is 'UTIntro'
+Log: Bringing Level Entry.MyLevel up for play (0)...
+ScriptLog: InitGame: 
+ScriptLog: Base Mutator is Entry.Mutator0
+Log: Browse: CUT-Logo-Map.unr?Name=Agora-chan?Class=BotPack.TFemale2?team=1?skin=SGirlSkins.army?Face=SGirlSkins.Lauren?Voice=BotPack.VoiceFemaleTwo
+Log: LoadMap: CUT-Logo-Map.unr?Name=Agora-chan?Class=BotPack.TFemale2?team=1?skin=SGirlSkins.army?Face=SGirlSkins.Lauren?Voice=BotPack.VoiceFemaleTwo
+Log: Collecting garbage
+Log: Purging garbage
+Log: Unloading: Package WinDrv
+Log: Unloading: Package Render
+Log: Garbage: objects: 15934->15932; refs: 177948
+Log: Game class is 'UTIntro'
+Log: Bringing Level CUT-Logo-Map.MyLevel up for play (0)...
+ScriptLog: InitGame: ?Name=Agora-chan?Class=BotPack.TFemale2?team=1?skin=SGirlSkins.army?Face=SGirlSkins.Lauren?Voice=BotPack.VoiceFemaleTwo
+ScriptLog: Base Mutator is CUT-Logo-Map.Mutator0
+Init: Initialized moving brush tracker for Level CUT-Logo-Map.MyLevel
+Log: Bound to UWeb.dll
+ScriptLog: Team 1
+ScriptLog: Login: Agora-chan
+Log: Possessed PlayerPawn: TFemale2 CUT-Logo-Map.TFemale0
+Init: Input system initialized for WindowsViewport0
+Log: Opened viewport
+Log: Bound to D3D9Drv.dll
+Log: Initializing D3D9Drv...
+Log: Enter SetRes()
+Log: D3D adapter driver      : amdxn32.dll
+Log: D3D adapter description : AMD Radeon RX 6700 XT
+Log: D3D adapter id          : 0x1002:0x73DF
+Init: Depth bits: 24
+Log: 8 Texture Mapping Units found
+Log: Trying to use S3TC extension.
+Log: MinLogTextureSize = 2
+Log: MaxLogTextureSize = 14
+Log: UseDetailAlpha = 1
+Log: Bound to Galaxy.dll
+Init: Galaxy is using DirectSound
+Init: Galaxy initialized
+DevAudio: Galaxy SetViewport: WindowsViewport0
+Init: Game engine initialized
+Log: Startup time: 0.849473 seconds
+Warning: FIREWALL: Could not Authorize
+Warning: FIREWALL: Freed XP.SP2 Firewall Object
+Warning: Failed to authorize Windows XP SP2 Firewall.
+Please check your firewall settings.
+ScriptLog: Creating root window: UMenu.UMenuRootWindow
+ScriptLog: Using Configured GUI Scale: 1.750000
+Log: Bound to udemo.dll
+udemo: Startup hack successful!
+Log: UDEMO: Successfully got list of demos
+Log: appRequestExit(0)
+Exit: Preparing to exit.
+Log: Collecting garbage
+Log: Purging garbage
+Log: Unbound to Engine.dll
+Log: Unbound to Core.dll
+Log: Unbound to Window.dll
+Log: Unloading: Package Engine
+Log: Unloading: Package Core
+Exit: Game engine shut down
+Log: Unbound to WinDrv.dll
+Log: DirectDraw End Mode
+Log: Flushing cache
+Exit: DirectDraw released
+Exit: Windows client shut down
+Log: Unbound to Render.dll
+Exit: Lighting subsystem shut down
+Exit: Rendering shut down
+Log: Unloading: Package Entry
+Log: Unloading: Package Logo
+Log: Unbound to Fire.dll
+Log: Unloading: Package Fire
+Log: Unloading: Package credits
+Log: Unloading: Package Botpack
+Log: Unloading: Package UnrealShare
+Log: Unloading: Package UnrealI
+Log: Unloading: Package Female2Voice
+Log: Unloading: Package Male2Voice
+Log: Unloading: Package Female1Voice
+Log: Unloading: Package BossVoice
+Log: Unloading: Package Male1Voice
+Log: Unloading: Package UMenu
+Log: Unloading: Package UWindow
+Log: Unloading: Package UBrowser
+Log: Unbound to IpDrv.dll
+Log: Unloading: Package IpDrv
+Log: Unloading: Package Announcer
+Log: Unloading: Package CUT-Logo-Map
+Log: Unloading: Package CUT_Desktop
+Log: Unloading: Package Suprfist
+Init: Shut down moving brush tracker for Level CUT-Logo-Map.MyLevel
+Log: Unloading: Package UTMenu
+Log: Unloading: Package LadderSounds
+Log: Unbound to UWeb.dll
+Log: Unloading: Package UWeb
+Log: Unloading: Package UTServerAdmin
+Log: Unloading: Package IpServer
+Log: Unloading: Package LadrArrow
+Log: Unloading: Package SGirlSkins
+Log: Unbound to D3D9Drv.dll
+Log: Unbound to Galaxy.dll
+DevAudio: Galaxy SetViewport: NULL
+Exit: Galaxy shut down
+Log: Unloading: Package LadderFonts
+Log: Unloading: Package UWindowFonts
+Log: Unbound to udemo.dll
+Log: Unloading: Package udemo
+Log: Unloading: Package ChaosUT
+Log: Unloading: Package chaostex
+Log: Unloading: Package ChaosSounds
+Log: Unloading: Package chaossounds2
+Log: Unloading: Package ChaosUTMedia1
+Log: Unloading: Package ChaosUTMedia5
+Log: Unloading: Package ChaosUTMedia2
+Log: Unloading: Package chaostex2
+Log: Unloading: Package ChaosUTMedia4
+Log: Unloading: Package ChaosUTMedia3
+Log: Unloading: Package chaos_special_tex
+Log: Unloading: Package RelicsBindings
+Log: Unloading: Package UTBrowser
+Log: Garbage: objects: 27386->0; refs: 0
+Exit: Object subsystem successfully closed.
+Exit: Exiting.
+Exit: Allocation checking disabled
+Log: Log file closed, 03/04/24 11:36:39

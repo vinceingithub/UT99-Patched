@@ -1,0 +1,83 @@
+ChaosUT Version 1.1
+===================
+ChaosUT, the Chaos mod for Unreal Tournament, was 
+developed by Chaotic Dreams.
+
+ChaosUT Website: http://www.planetunreal.com/chaotic/
+Chaotic Dreams: http://www.chaoticdreams.org/
+
+
+Installation & Documentation
+============================
+For documentation, please refer to the online documenation 
+pages provided with ChaosUT Version 1.1.  To open the CUT Docs, 
+open the startme.html in the UnrealTournament/Help/chaosut/ 
+folder.  For additional information, please refer to the proper 
+section of the ChaosUT website.
+
+
+Changes Since Version 1
+=======================
+1. New Team Colored Turrets!
+2. New Team Colored Proxies!
+3. Adjusted turret scoring and targeting.
+4. Adjusted Flak Alternate fire distance and speed.
+5. Adjusted player proxy ammo limit.
+6. Increased damage for Utility Gun.
+7. Improved SloMo feature.
+8. Improved KOTH and Team KOTH gametypes.
+9. Added left handed models for crossbow, vortex launcher, turret
+   launcher, and proxy arm.
+10. Adjusted spread of fire for AirGun.
+11. New angry proxies that will attack whoever (even their owner) 
+    if they get mad for any reason.
+12. Other improvements to crossbows, proxies, vortex, and turrets.
+13. Many other bug fixes and tweaks.
+
+
+
+Changes Since Beta 4
+====================
+1. Tweaked damage on explosive crossbow arrows, explosive 
+   CAS12 ammo, armor piercing CAS12 ammo, and proxy mines.
+2. Vortex fire times changed. Primary is 2 sec, Secondary 
+   is 4 sec.
+3. Weapon arena mutators for CUT have been moved to the ChaosUT 
+   Config on the mod menu. Select the weapon you want in the 
+   config and load the ChaosUT Arena mutator.
+4. New Weapon: Utility Gun with Fire, Freeze, and Air ammo.
+5. New Turret Identify.  Looking at a turret will tell if it
+   is friendly or hostile in Chaos gametypes.
+6. You now gain points for fragging turrets.
+7. Flak2 counter now shows your ammo count, not 'offline'.
+8. Proxy's now have sparks when they jump, so you can see them.
+9. You can now carry 5 Vortexes, but only 1 may be active.
+10. Server browser is now fixed.  Only CUT servers running the 
+    gametypes will be shown.
+11. New Slowmo cam feature.  In CUT DM, SA and LMS gametypes, 
+    the last kill is shown in slow motion after the game ends.
+12. Fixed left hand or center model problems with CAS12.
+13. Many other bug fixes and tweaks.
+
+
+Changes Since GOTY
+==================
+1. Addition of new game types (KOTH, Team KOTH, Sword Arena, 
+	Team Sword Arena).
+2. New Weapon CAS12 auto shotgun with interchangable ammo.
+3. Sharpened sword (Breaks glass too!).
+4. Proxies are easier to kill.
+5. Enemy proxies target each other.
+6. "Weapons Stay" works in single player.
+7. CUT weapons show up in LMS gametype.
+8. Crossbow scope works correctly.
+9. Spectators can no longer kick.
+10. Grapple now works when used at point-blank range.
+11. Anti GravBelt can be turned on and off.
+12. New model for CUT Jump Boots.
+13. Various tweaks to proxies, and they now take damage from 
+	all weapons.
+14. Various tweaks to turrets &  turret targeting.
+15. Several new mutators (Grapple only, Crossbow Arenas, 
+	Sword Arenas).
+16. Many other bug fixes and tweaks.

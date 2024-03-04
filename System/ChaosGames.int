@@ -1,0 +1,14 @@
+[Public]
+Object=(Name=Chaosgames.ChaosKOTH,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosTeamKOTH,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosDeathMatchPlus,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosTeamGamePlus,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosCTFGame,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosAssault,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosDomination,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosLastManStanding,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosSwordArena,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.ChaosTeamSwordArena,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=Chaosgames.CUTBrowserWindow,Class=Class,MetaClass=UTBrowser.UTBrowserServerListWindow)
+
+
