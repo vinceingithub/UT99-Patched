@@ -1,4 +1,4 @@
-﻿Log: Log file open, 03/04/24 11:33:55
+﻿Log: Log file open, 03/12/24 14:06:37
 Init: Name subsystem initialized
 Init: Version: 469
 Init: Revision: d (Release)
@@ -19,7 +19,7 @@ Init: Working set: 32000 / 159000
 Init: CPU Page size=4096, Processors=12
 Init: CPU Detected: AMD Ryzen 5 5600X 6-Core Processor              (AuthenticAMD)
 Init: CPU Features: INVARIANT_TSC CMov FPU RDTSC PAE MMX SSE SSE2 SSE3 SSSE3 SSE4_1 SSE4_2 AVX AVX2
-Init: Timer Frequency=4199.999580 MHz - Timing Source = RDTSC
+Init: Timer Frequency=4200.001470 MHz - Timing Source = RDTSC
 Init: Unreal engine initialized
 Log: Bound to WinDrv.dll
 Init: Enhanced Pointer Precision Disabled
@@ -56,8 +56,8 @@ Log: Game class is 'UTIntro'
 Log: Bringing Level Entry.MyLevel up for play (0)...
 ScriptLog: InitGame: 
 ScriptLog: Base Mutator is Entry.Mutator0
-Log: Browse: CUT-Logo-Map.unr?Name=Agora-chan?Class=BotPack.TFemale2?team=1?skin=SGirlSkins.army?Face=SGirlSkins.Lauren?Voice=BotPack.VoiceFemaleTwo
-Log: LoadMap: CUT-Logo-Map.unr?Name=Agora-chan?Class=BotPack.TFemale2?team=1?skin=SGirlSkins.army?Face=SGirlSkins.Lauren?Voice=BotPack.VoiceFemaleTwo
+Log: Browse: CUT-Logo-Map.unr?Name=Vince?Class=BotPack.TFemale1?team=1?skin=FCommandoSkins.daco?Face=FCommandoSkins.jayce?Voice=BotPack.VoiceFemaleTwo
+Log: LoadMap: CUT-Logo-Map.unr?Name=Vince?Class=BotPack.TFemale1?team=1?skin=FCommandoSkins.daco?Face=FCommandoSkins.jayce?Voice=BotPack.VoiceFemaleTwo
 Log: Collecting garbage
 Log: Purging garbage
 Log: Unloading: Package WinDrv
@@ -65,13 +65,13 @@ Log: Unloading: Package Render
 Log: Garbage: objects: 15934->15932; refs: 177948
 Log: Game class is 'UTIntro'
 Log: Bringing Level CUT-Logo-Map.MyLevel up for play (0)...
-ScriptLog: InitGame: ?Name=Agora-chan?Class=BotPack.TFemale2?team=1?skin=SGirlSkins.army?Face=SGirlSkins.Lauren?Voice=BotPack.VoiceFemaleTwo
+ScriptLog: InitGame: ?Name=Vince?Class=BotPack.TFemale1?team=1?skin=FCommandoSkins.daco?Face=FCommandoSkins.jayce?Voice=BotPack.VoiceFemaleTwo
 ScriptLog: Base Mutator is CUT-Logo-Map.Mutator0
 Init: Initialized moving brush tracker for Level CUT-Logo-Map.MyLevel
 Log: Bound to UWeb.dll
 ScriptLog: Team 1
-ScriptLog: Login: Agora-chan
-Log: Possessed PlayerPawn: TFemale2 CUT-Logo-Map.TFemale0
+ScriptLog: Login: Vince
+Log: Possessed PlayerPawn: TFemale1 CUT-Logo-Map.TFemale0
 Init: Input system initialized for WindowsViewport0
 Log: Opened viewport
 Log: Bound to D3D9Drv.dll
@@ -91,7 +91,7 @@ Init: Galaxy is using DirectSound
 Init: Galaxy initialized
 DevAudio: Galaxy SetViewport: WindowsViewport0
 Init: Game engine initialized
-Log: Startup time: 0.849473 seconds
+Log: Startup time: 0.717999 seconds
 Warning: FIREWALL: Could not Authorize
 Warning: FIREWALL: Freed XP.SP2 Firewall Object
 Warning: Failed to authorize Windows XP SP2 Firewall.
@@ -149,7 +149,7 @@ Log: Unloading: Package UWeb
 Log: Unloading: Package UTServerAdmin
 Log: Unloading: Package IpServer
 Log: Unloading: Package LadrArrow
-Log: Unloading: Package SGirlSkins
+Log: Unloading: Package FCommandoSkins
 Log: Unbound to D3D9Drv.dll
 Log: Unbound to Galaxy.dll
 DevAudio: Galaxy SetViewport: NULL
@@ -158,21 +158,10 @@ Log: Unloading: Package LadderFonts
 Log: Unloading: Package UWindowFonts
 Log: Unbound to udemo.dll
 Log: Unloading: Package udemo
-Log: Unloading: Package ChaosUT
-Log: Unloading: Package chaostex
-Log: Unloading: Package ChaosSounds
-Log: Unloading: Package chaossounds2
-Log: Unloading: Package ChaosUTMedia1
-Log: Unloading: Package ChaosUTMedia5
-Log: Unloading: Package ChaosUTMedia2
-Log: Unloading: Package chaostex2
-Log: Unloading: Package ChaosUTMedia4
-Log: Unloading: Package ChaosUTMedia3
-Log: Unloading: Package chaos_special_tex
 Log: Unloading: Package RelicsBindings
 Log: Unloading: Package UTBrowser
-Log: Garbage: objects: 27386->0; refs: 0
+Log: Garbage: objects: 24898->0; refs: 0
 Exit: Object subsystem successfully closed.
 Exit: Exiting.
 Exit: Allocation checking disabled
-Log: Log file closed, 03/04/24 11:36:39
+Log: Log file closed, 03/12/24 14:09:15
