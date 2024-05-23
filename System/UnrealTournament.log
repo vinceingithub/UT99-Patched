@@ -1,4 +1,4 @@
-﻿Log: Log file open, 03/12/24 14:06:37
+﻿Log: Log file open, 05/23/24 18:37:30
 Init: Name subsystem initialized
 Init: Version: 469
 Init: Revision: d (Release)
@@ -13,13 +13,13 @@ Init: Object subsystem initialized
 Init: Detected: Microsoft Windows NT 6.2 (Build: 9200)
 Log: Enabling Data Executing Prevention
 Init: Computer: VINCEPC
-Init: User: vince
+Init: User: Vince
 Init: Memory total: Phys=4194303K Pagef=4194303K Virt=4194176K
 Init: Working set: 32000 / 159000
 Init: CPU Page size=4096, Processors=12
 Init: CPU Detected: AMD Ryzen 5 5600X 6-Core Processor              (AuthenticAMD)
 Init: CPU Features: INVARIANT_TSC CMov FPU RDTSC PAE MMX SSE SSE2 SSE3 SSSE3 SSE4_1 SSE4_2 AVX AVX2
-Init: Timer Frequency=4200.001470 MHz - Timing Source = RDTSC
+Init: Timer Frequency=4200.003360 MHz - Timing Source = RDTSC
 Init: Unreal engine initialized
 Log: Bound to WinDrv.dll
 Init: Enhanced Pointer Precision Disabled
@@ -56,8 +56,8 @@ Log: Game class is 'UTIntro'
 Log: Bringing Level Entry.MyLevel up for play (0)...
 ScriptLog: InitGame: 
 ScriptLog: Base Mutator is Entry.Mutator0
-Log: Browse: CUT-Logo-Map.unr?Name=Vince?Class=BotPack.TFemale1?team=1?skin=FCommandoSkins.daco?Face=FCommandoSkins.jayce?Voice=BotPack.VoiceFemaleTwo
-Log: LoadMap: CUT-Logo-Map.unr?Name=Vince?Class=BotPack.TFemale1?team=1?skin=FCommandoSkins.daco?Face=FCommandoSkins.jayce?Voice=BotPack.VoiceFemaleTwo
+Log: Browse: CUT-Logo-Map.unr?Name=Agora-chan?Class=BotPack.TFemale1?team=1?skin=FCommandoSkins.daco?Face=FCommandoSkins.jayce?Voice=BotPack.VoiceFemaleTwo
+Log: LoadMap: CUT-Logo-Map.unr?Name=Agora-chan?Class=BotPack.TFemale1?team=1?skin=FCommandoSkins.daco?Face=FCommandoSkins.jayce?Voice=BotPack.VoiceFemaleTwo
 Log: Collecting garbage
 Log: Purging garbage
 Log: Unloading: Package WinDrv
@@ -65,12 +65,12 @@ Log: Unloading: Package Render
 Log: Garbage: objects: 15934->15932; refs: 177948
 Log: Game class is 'UTIntro'
 Log: Bringing Level CUT-Logo-Map.MyLevel up for play (0)...
-ScriptLog: InitGame: ?Name=Vince?Class=BotPack.TFemale1?team=1?skin=FCommandoSkins.daco?Face=FCommandoSkins.jayce?Voice=BotPack.VoiceFemaleTwo
+ScriptLog: InitGame: ?Name=Agora-chan?Class=BotPack.TFemale1?team=1?skin=FCommandoSkins.daco?Face=FCommandoSkins.jayce?Voice=BotPack.VoiceFemaleTwo
 ScriptLog: Base Mutator is CUT-Logo-Map.Mutator0
 Init: Initialized moving brush tracker for Level CUT-Logo-Map.MyLevel
 Log: Bound to UWeb.dll
 ScriptLog: Team 1
-ScriptLog: Login: Vince
+ScriptLog: Login: Agora-chan
 Log: Possessed PlayerPawn: TFemale1 CUT-Logo-Map.TFemale0
 Init: Input system initialized for WindowsViewport0
 Log: Opened viewport
@@ -91,16 +91,505 @@ Init: Galaxy is using DirectSound
 Init: Galaxy initialized
 DevAudio: Galaxy SetViewport: WindowsViewport0
 Init: Game engine initialized
-Log: Startup time: 0.717999 seconds
-Warning: FIREWALL: Could not Authorize
+Log: Startup time: 1.839632 seconds
 Warning: FIREWALL: Freed XP.SP2 Firewall Object
-Warning: Failed to authorize Windows XP SP2 Firewall.
-Please check your firewall settings.
 ScriptLog: Creating root window: UMenu.UMenuRootWindow
 ScriptLog: Using Configured GUI Scale: 1.750000
 Log: Bound to udemo.dll
 udemo: Startup hack successful!
 Log: UDEMO: Successfully got list of demos
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Log: Resolving oldunreal.com...
+Log: Resolved oldunreal.com (213.160.74.18)
+Init: WinSock: I am VINCE-PC (192.168.80.5)
+Log: URL: Adding default option Name=Agora-chan
+Log: URL: Adding default option Class=BotPack.TFemale1
+Log: URL: Adding default option team=1
+Log: URL: Adding default option skin=FCommandoSkins.daco
+Log: URL: Adding default option Face=FCommandoSkins.jayce
+Log: URL: Adding default option Voice=BotPack.VoiceFemaleTwo
+Log: Browse: 192.168.80.10/Index.unr?Name=Agora-chan?Class=BotPack.TFemale1?team=1?skin=FCommandoSkins.daco?Face=FCommandoSkins.jayce?Voice=BotPack.VoiceFemaleTwo
+Init: WinSock: Socket queue 32768 / 32768
+DevNet: Game client on port 0, rate 20000
+DevNet: PendingLevel received: CHALLENGE VER=469 CHALLENGE=785778084 STATS=1
+DevNet: PendingLevel received: FAILURE You need to enter a password to join this game.
+DevNet: PendingLevel received: FAILCODE NEEDPW
+Log: Pending connect to 192.168.80.10/Index.unr?Name=Agora-chan?Class=BotPack.TFemale1?team=1?skin=FCommandoSkins.daco?Face=FCommandoSkins.jayce?Voice=BotPack.VoiceFemaleTwo?Checksum=NoChecksum failed; Rejected by server
+NetComeGo: Close TcpipConnection0 05/23/24 18:37:38
+Exit: WinSock shut down
+Log: Browse: 192.168.80.10/Index.unr?Name=Agora-chan?Class=BotPack.TFemale1?team=1?skin=FCommandoSkins.daco?Face=FCommandoSkins.jayce?Voice=BotPack.VoiceFemaleTwo?Checksum=NoChecksum?password=Ag0raCHANis_myW1F3
+Init: WinSock: Socket queue 32768 / 32768
+DevNet: Game client on port 0, rate 20000
+DevNet: PendingLevel received: CHALLENGE VER=469 CHALLENGE=1030980740 STATS=1
+DevNet: PendingLevel received: USES GUID=68722E6411D38195E0006BA2D2321081 PKG=CTF-Face FLAGS=1 SIZE=980156 GEN=1 FNAME=CTF-Face.unr
+DevNet: PendingLevel received: USES GUID=D18A7B9211D38F04100067B9F6F8975A PKG=Engine FLAGS=1 SIZE=1260153 GEN=56 REALGEN=60 FNAME=Engine.u
+DevNet: PendingLevel received: USES GUID=4770B88411D38E3E100067B9F6F8975A PKG=Core FLAGS=1 SIZE=67362 GEN=17 FNAME=Core.u
+DevNet: PendingLevel received: USES GUID=1E90ACCA11D1ED664544279700005453 PKG=SkyCity FLAGS=1 SIZE=87218 GEN=1 REALGEN=2 FNAME=SkyCity.utx
+DevNet: PendingLevel received: USES GUID=1E90ACA811D1ED664544279700005453 PKG=Detail FLAGS=1 SIZE=22575 GEN=1 REALGEN=2 FNAME=Detail.utx
+DevNet: PendingLevel received: USES GUID=4770B88811D38E3E100067B9F6F8975A PKG=Fire FLAGS=1 SIZE=19278 GEN=11 REALGEN=12 FNAME=Fire.u
+DevNet: PendingLevel received: USES GUID=5CA303AC11D38D0CC00084B50A1E604F PKG=ShaneChurch FLAGS=1 SIZE=73919 GEN=1 REALGEN=3 FNAME=ShaneChurch.utx
+DevNet: PendingLevel received: USES GUID=2E3682A411D379A7E0006BA2D2321081 PKG=UTtech1 FLAGS=1 SIZE=193490 GEN=1 REALGEN=3 FNAME=UTtech1.utx
+DevNet: PendingLevel received: USES GUID=1C69657611D38F44100067B9F6F8975A PKG=Botpack FLAGS=1 SIZE=40142476 GEN=61 FNAME=Botpack.u
+DevNet: PendingLevel received: USES GUID=4770B88C11D38E3E100067B9F6F8975A PKG=UnrealShare FLAGS=1 SIZE=22192707 GEN=18 REALGEN=19 FNAME=UnrealShare.u
+DevNet: PendingLevel received: USES GUID=4770B88D11D38E3E100067B9F6F8975A PKG=UnrealI FLAGS=1 SIZE=18575550 GEN=11 REALGEN=12 FNAME=UnrealI.u
+DevNet: PendingLevel received: USES GUID=1E90ACC211D1ED664544279700005453 PKG=PlayrShp FLAGS=1 SIZE=65490 GEN=1 REALGEN=2 FNAME=PlayrShp.utx
+DevNet: PendingLevel received: USES GUID=1E90ACB711D1ED664544279700005453 PKG=JWSky FLAGS=1 SIZE=8502 GEN=1 REALGEN=2 FNAME=JWSky.utx
+DevNet: PendingLevel received: USES GUID=1E90ACB311D1ED664544279700005453 PKG=GreatFire FLAGS=1 SIZE=13327 GEN=1 REALGEN=2 FNAME=GreatFire.utx
+DevNet: PendingLevel received: USES GUID=05F3756011D378EDE0006BA2D2321081 PKG=utcrypt FLAGS=1 SIZE=38600 GEN=1 REALGEN=3 FNAME=utcrypt.utx
+DevNet: PendingLevel received: USES GUID=1E90ACAE11D1ED664544279700005453 PKG=genfluid FLAGS=1 SIZE=104123 GEN=1 REALGEN=2 FNAME=genfluid.utx
+DevNet: PendingLevel received: USES GUID=1E90ACAF11D1ED664544279700005453 PKG=GenFX FLAGS=1 SIZE=131061 GEN=1 REALGEN=2 FNAME=GenFX.utx
+DevNet: PendingLevel received: USES GUID=D84EFC3911D3627FE0005F95BE341081 PKG=CTF FLAGS=1 SIZE=61692 GEN=1 REALGEN=3 FNAME=CTF.utx
+DevNet: PendingLevel received: USES GUID=5C0AABC211D282F44544289700005453 PKG=Crypt2 FLAGS=1 SIZE=40755 GEN=1 REALGEN=3 FNAME=Crypt2.utx
+DevNet: PendingLevel received: USES GUID=F717F4C611D38B66C00081B50A1E604F PKG=XbpFX FLAGS=1 SIZE=46056 GEN=1 REALGEN=3 FNAME=XbpFX.utx
+DevNet: PendingLevel received: USES GUID=1E90ACCF11D1ED664544279700005453 PKG=XFX FLAGS=1 SIZE=23579 GEN=1 REALGEN=2 FNAME=XFX.utx
+DevNet: PendingLevel received: USES GUID=C47BBD4011D38CFBC00084B50A1E604F PKG=DecayedS FLAGS=1 SIZE=55284 GEN=1 REALGEN=3 FNAME=DecayedS.utx
+DevNet: PendingLevel received: USES GUID=1E90ACC111D1ED664544279700005453 PKG=Palettes FLAGS=1 SIZE=92697 GEN=1 REALGEN=2 FNAME=Palettes.utx
+DevNet: PendingLevel received: USES GUID=1E90ACCB11D1ED664544279700005453 PKG=SpaceFX FLAGS=1 SIZE=24842 GEN=1 REALGEN=2 FNAME=SpaceFX.utx
+DevNet: PendingLevel received: USES GUID=C073770F11D2D1A4E000278383161081 PKG=Foregone FLAGS=1 SIZE=206 GEN=1 REALGEN=2 FNAME=Foregone.umx
+DevNet: PendingLevel received: USES GUID=93CC0A8111D3888FE0006295BE341081 PKG=SoldierSkins FLAGS=1 SIZE=102233 GEN=1 REALGEN=3 FNAME=SoldierSkins.utx
+DevNet: PendingLevel received: USES GUID=E96BC96311D31D2F4F006B8CDE9A0349 PKG=CommandoSkins FLAGS=1 SIZE=67630 GEN=1 REALGEN=3 FNAME=commandoskins.utx
+DevNet: PendingLevel received: USES GUID=B7B49CA611D38BCDE0006395BE341081 PKG=FCommandoSkins FLAGS=1 SIZE=82636 GEN=1 REALGEN=3 FNAME=FCommandoSkins.utx
+DevNet: PendingLevel received: USES GUID=D4F6ABE111D385CAE0006295BE341081 PKG=SGirlSkins FLAGS=1 SIZE=117139 GEN=1 REALGEN=3 FNAME=SGirlSkins.utx
+DevNet: PendingLevel received: USES GUID=24E5A72411D321104F006B8CDE9A0349 PKG=BossSkins FLAGS=1 SIZE=25774 GEN=1 REALGEN=3 FNAME=BossSkins.utx
+DevNet: PendingLevel received: USES GUID=E5DEDF1C4035EF51F27D55B094F3F73B PKG=CCHS4 FLAGS=1 SIZE=16556 GEN=1 FNAME=CCHS4.u
+DevNet: PendingLevel received: USES GUID=8BC3CA404E170BCC8A824EB424B6CFD1 PKG=FlagAnnouncementsV2 FLAGS=1 SIZE=20675 GEN=1 FNAME=FlagAnnouncementsV2.u
+DevNet: PendingLevel received: USES GUID=EE94E4EC48CEBBC2672A4FA932002575 PKG=DefaultAnnouncements FLAGS=1 SIZE=735505 GEN=1 FNAME=DefaultAnnouncements.uax
+DevNet: PendingLevel received: USES GUID=7D6928BF46324DC1F011C8BF05E58794 PKG=KickIdlePlayers2 FLAGS=1 SIZE=14023 GEN=1 FNAME=KickIdlePlayers2.u
+DevNet: PendingLevel received: USES GUID=92A929CA42005F105C5C4A886E3B8357 PKG=MVE2h FLAGS=1 SIZE=339128 GEN=1 FNAME=MVE2h.u
+DevNet: PendingLevel received: USES GUID=03C136E34A265C04995AB888F3BE504F PKG=VoteSys_v12 FLAGS=1 SIZE=610858 GEN=1 FNAME=VoteSys_v12.u
+DevNet: PendingLevel received: USES GUID=8408A02011D6733F300046BBB7637684 PKG=EnhancedItems FLAGS=1 SIZE=305359 GEN=3 FNAME=EnhancedItems.u
+DevNet: PendingLevel received: USES GUID=25378BF44584EF794EAC6E86872140C4 PKG=WhoPushedMe FLAGS=1 SIZE=10619 GEN=2 FNAME=WhoPushedMe.u
+DevNet: PendingLevel received: USES GUID=C870D99042CA2BD7D5FA89B644E0E495 PKG=ZeroPingPlus103 FLAGS=1 SIZE=56048 GEN=1 FNAME=ZeroPingPlus103.u
+DevNet: PendingLevel received: USES GUID=BB3E00A94B85DB650910C3B68705B6C1 PKG=SLV205 FLAGS=1 SIZE=1188106 GEN=1 FNAME=SLV205.u
+DevNet: PendingLevel received: USES GUID=B26AECE34E1BC2AE1E588BAC17047570 PKG=SLV2Sounds FLAGS=1 SIZE=3165498 GEN=1 FNAME=SLV2Sounds.uax
+DevNet: PendingLevel received: USES GUID=C466FEC246F7391B5D889B8F8BCB3AE0 PKG=SLV2Textures FLAGS=1 SIZE=1676382 GEN=1 FNAME=SLV2Textures.utx
+DevNet: PendingLevel received: USES GUID=08EAC8EF43ACCE38BA59928603BD9B37 PKG=SLV2Models FLAGS=1 SIZE=2036949 GEN=1 FNAME=SLV2Models.u
+DevNet: PendingLevel received: USES GUID=FFD0DDA54745805D05531DB385C287AB PKG=SLV2Fonts FLAGS=1 SIZE=345240 GEN=1 FNAME=SLV2Fonts.utx
+DevNet: PendingLevel received: USES GUID=1542D4954E3A947A74E2AEBDDF7D0F7E PKG=BTPPUser FLAGS=1 SIZE=20347 GEN=1 FNAME=BTPPUser.u
+DevNet: PendingLevel received: USES GUID=DC1B324D41E3BBED5849DF8FCD5042CD PKG=CountryFlags3 FLAGS=1 SIZE=365270 GEN=1 FNAME=CountryFlags3.utx
+DevNet: PendingLevel received: USES GUID=318AB0424FC0121A16D9C99AC791B201 PKG=BTPlusPlusPublicUTBT_beta3 FLAGS=1 SIZE=2731487 GEN=1 FNAME=BTPlusPlusPublicUTBT_beta3.u
+DevNet: PendingLevel received: USES GUID=1689387011D48D1D1000BF910283974B PKG=UTChaosMap FLAGS=1 SIZE=1575898 GEN=2 FNAME=UTChaosMap.u
+DevNet: PendingLevel received: USES GUID=7BD0BCDF407AFCE06C9612B24B03FEE1 PKG=ChaosUTMedia3 FLAGS=1 SIZE=6637482 GEN=2 FNAME=ChaosUTMedia3.u
+DevNet: PendingLevel received: USES GUID=4710FD33403C59E095A880A1E933273A PKG=ChaosUTMedia1 FLAGS=1 SIZE=6435866 GEN=2 FNAME=ChaosUTMedia1.u
+DevNet: PendingLevel received: USES GUID=77B9C67011D463481000A5910283974B PKG=Chaostex FLAGS=1 SIZE=20485021 GEN=1 FNAME=chaostex.utx
+DevNet: PendingLevel received: USES GUID=FF4EA51011D48DD31000BF910283974B PKG=ChaosUTMedia2 FLAGS=1 SIZE=1885460 GEN=2 FNAME=ChaosUTMedia2.u
+DevNet: PendingLevel received: USES GUID=F46F244011D490CF1000BF910283974B PKG=chaostex2 FLAGS=1 SIZE=773339 GEN=1 FNAME=chaostex2.utx
+DevNet: PendingLevel received: USES GUID=21B21D8011D462911000A5910283974B PKG=ChaosSounds FLAGS=1 SIZE=5272094 GEN=1 FNAME=chaossounds.uax
+DevNet: PendingLevel received: USES GUID=ADA9446A47EBC1A9D28EDF946C1AFECD PKG=ChaosUTRHUD FLAGS=1 SIZE=20987 GEN=1 REALGEN=2 FNAME=ChaosUTRHUD.u
+DevNet: PendingLevel received: USES GUID=72C36B5A4126373A2DB8B5996B2098EE PKG=ChaosUT FLAGS=1 SIZE=2742864 GEN=2 FNAME=ChaosUT.u
+DevNet: PendingLevel received: USES GUID=001A86C311D490F31000BF910283974B PKG=chaossounds2 FLAGS=1 SIZE=3183219 GEN=1 FNAME=chaossounds2.uax
+DevNet: PendingLevel received: USES GUID=1D4D7ED94F59F378DCAD829EDB4A1D5C PKG=ChaosUTMedia5 FLAGS=1 SIZE=4344935 GEN=1 FNAME=ChaosUTMedia5.u
+DevNet: PendingLevel received: USES GUID=D9F2ACD24C4139964219838255DC7F3F PKG=ChaosUTMedia4 FLAGS=1 SIZE=6872338 GEN=2 FNAME=ChaosUTMedia4.u
+DevNet: PendingLevel received: USES GUID=62DFBFAE4DA9D0C4375C2BB5D56ADEC1 PKG=chaos_special_tex FLAGS=1 SIZE=227266 GEN=1 FNAME=chaos_special_tex.utx
+DevNet: PendingLevel received: USES GUID=D011F66E11D3E9B81000D5B9F6F8975A PKG=relics FLAGS=1 SIZE=453755 GEN=1 REALGEN=2 FNAME=relics.u
+DevNet: PendingLevel received: USES GUID=B53AA7B64D9AF15D1BAF0E85F8421F99 PKG=ChaosUTMiscMuts FLAGS=1 SIZE=33715 GEN=2 FNAME=ChaosUTMiscMuts.u
+DevNet: PendingLevel received: USES GUID=A6FFCCA34230CBD0C05DA281B47B7966 PKG=ChaosGames FLAGS=1 SIZE=274380 GEN=2 FNAME=ChaosGames.u
+DevNet: PendingLevel received: USES GUID=0ADAF22411ED02A4010AB48067505B00 PKG=MonsterHunt FLAGS=1 SIZE=3024545 GEN=1 FNAME=MonsterHunt.u
+DevNet: PendingLevel received: DLMGR CLASS=Engine.ChannelDownload PARAMS=Enabled COMPRESSION=0
+DevNet: PendingLevel received: WELCOME LEVEL=CTF-Face LONE=0
+DevNet: Welcomed by server: LEVEL=CTF-Face LONE=0
+DevNet: Receiving package 'CCHS4'
+DevNet: Receiving package 'FlagAnnouncementsV2'
+DevNet: Receiving package 'DefaultAnnouncements'
+DevNet: Receiving package 'KickIdlePlayers2'
+DevNet: Receiving package 'VoteSys_v12'
+DevNet: Receiving package 'EnhancedItems'
+DevNet: Receiving package 'WhoPushedMe'
+DevNet: Receiving package 'ZeroPingPlus103'
+DevNet: Receiving package 'SLV205'
+DevNet: Receiving package 'SLV2Sounds'
+DevNet: Receiving package 'SLV2Textures'
+DevNet: Receiving package 'SLV2Models'
+DevNet: Receiving package 'SLV2Fonts'
+DevNet: Receiving package 'BTPPUser'
+DevNet: Receiving package 'CountryFlags3'
+DevNet: Receiving package 'BTPlusPlusPublicUTBT_beta3'
+DevNet: Receiving package 'MonsterHunt'
+Log: LoadMap: 192.168.80.10/CTF-Face?Name=Agora-chan?Class=BotPack.TFemale1?team=1?skin=FCommandoSkins.daco?Face=FCommandoSkins.jayce?Voice=BotPack.VoiceFemaleTwo?Checksum=NoChecksum?password=Ag0raCHANis_myW1F3
+DevAudio: Galaxy SetViewport: WindowsViewport0
+Log: UDEMO: Successfully got list of demos
+Init: Shut down moving brush tracker for Level CUT-Logo-Map.MyLevel
+Log: Collecting garbage
+Log: Purging garbage
+Log: Unloading: Package CUT-Logo-Map
+Log: Unloading: Package CUT_Desktop
+Log: Unloading: Package NWUltraGoreSSEc
+Log: Garbage: objects: 26609->25907; refs: 358812
+Log: Bringing Level CTF-Face.MyLevel up for play (312)...
+Log: Spawning new actor for Viewport WindowsViewport0
+ScriptLog: Team 1
+ScriptLog: Login: Agora-chan
+ScriptLog: Password Ag0raCHANis_myW1F3
+Log: Possessed PlayerPawn: TFemale1 Entry.TFemale10
+Init: Initialized moving brush tracker for Level CTF-Face.MyLevel
+DevAudio: Galaxy SetViewport: WindowsViewport0
+ScriptLog: Getting SoldierSkins.RawS1T_0, SoldierSkins.RawS2T_0, SoldierSkins.RawS3, SoldierSkins.RawS4Kregore
+ScriptLog: Getting FCommandoSkins.goth1T_1, FCommandoSkins.goth2T_1, None, FCommandoSkins.goth4Visse
+ScriptLog: Getting FCommandoSkins.goth1T_0, FCommandoSkins.goth2T_0, None, FCommandoSkins.goth4Malise
+ScriptLog: Getting SGirlSkins.Venm1T_1, SGirlSkins.Venm2T_1, SGirlSkins.Venm3, SGirlSkins.Venm4Cilia
+Log: Possessed PlayerPawn: TFemale1 CTF-Face.TFemale10
+ScriptLog: ChRHudNotify: ChHudNotify has been created
+Log: UDEMO: Successfully got list of demos
+ScriptLog: Inside ChaosRHUD postrender
+Log: Enter SetRes()
+Log: UnSetRes() -> m_d3d9 != NULL
+Log: D3D adapter driver      : amdxn32.dll
+Log: D3D adapter description : AMD Radeon RX 6700 XT
+Log: D3D adapter id          : 0x1002:0x73DF
+Init: Depth bits: 24
+Log: 8 Texture Mapping Units found
+Log: Trying to use S3TC extension.
+Log: MinLogTextureSize = 2
+Log: MaxLogTextureSize = 14
+Log: UseDetailAlpha = 1
+Warning: Failed to load DM-CUT_WeaponsOfWar: Can't find file for package DM-CUT_WeaponsOfWar..
+Warning: Failed to load "Texture DM-CUT_WeaponsOfWar.Screenshot": Can't find file for package DM-CUT_WeaponsOfWar..
+Warning: Failed to load DM-CUT_WeaponsOfWar: Can't find file for package DM-CUT_WeaponsOfWar..
+Warning: Failed to load "LevelInfo DM-CUT_WeaponsOfWar.LevelInfo0": Can't find file for package DM-CUT_WeaponsOfWar..
+Warning: Failed to load DM-CUT_WeaponsOfWar: Can't find file for package DM-CUT_WeaponsOfWar..
+Warning: Failed to load "LevelInfo DM-CUT_WeaponsOfWar.LevelInfo1": Can't find file for package DM-CUT_WeaponsOfWar..
+Warning: Failed to load DM-CUT_WeaponsOfWar: Can't find file for package DM-CUT_WeaponsOfWar..
+Warning: Failed to load "LevelSummary DM-CUT_WeaponsOfWar.LevelSummary": Can't find file for package DM-CUT_WeaponsOfWar..
+Log: Browse: 192.168.80.10/DM-Astonish?Name=Agora-chan?Class=BotPack.TFemale1?Team=1?skin=FCommandoSkins.daco?Face=FCommandoSkins.jayce?Voice=BotPack.VoiceFemaleTwo?Checksum=NoChecksum?password=Ag0raCHANis_myW1F3?Game=Botpack.DeathMatchPlus
+Init: WinSock: Socket queue 32768 / 32768
+DevNet: Game client on port 0, rate 20000
+Log: URL: Adding default option Name=Agora-chan
+Log: URL: Adding default option Class=BotPack.TFemale1
+Log: URL: Adding default option Team=1
+Log: URL: Adding default option skin=FCommandoSkins.daco
+Log: URL: Adding default option Face=FCommandoSkins.jayce
+Log: URL: Adding default option Voice=BotPack.VoiceFemaleTwo
+Log: Browse: Index.unr?failed?Name=Agora-chan?Class=BotPack.TFemale1?Team=1?skin=FCommandoSkins.daco?Face=FCommandoSkins.jayce?Voice=BotPack.VoiceFemaleTwo
+Log: Failed; returning to Entry
+Init: Shut down moving brush tracker for Level CTF-Face.MyLevel
+Log: UDEMO: Successfully got list of demos
+Log: Spawning new actor for Viewport WindowsViewport0
+ScriptLog: Team 1
+ScriptLog: Login: Agora-chan
+Log: Possessed PlayerPawn: TFemale1 Entry.TFemale10
+DevAudio: Galaxy SetViewport: WindowsViewport0
+DevNet: PendingLevel received: CHALLENGE VER=469 CHALLENGE=-881021468 STATS=1
+DevNet: PendingLevel received: USES GUID=80B89A134881ACE13C8FEEAC8E6627EC PKG=DM-Astonish FLAGS=1 SIZE=2976179 GEN=1 FNAME=DM-Astonish.unr
+DevNet: PendingLevel received: USES GUID=9ECF6B4211D48BFC60C57EAD47CDD471 PKG=FRZ_Iceotope FLAGS=1 SIZE=2149073 GEN=1 FNAME=FRZ_Iceotope.utx
+DevNet: PendingLevel received: USES GUID=D18A7B9211D38F04100067B9F6F8975A PKG=Engine FLAGS=1 SIZE=1260153 GEN=56 REALGEN=60 FNAME=Engine.u
+DevNet: PendingLevel received: USES GUID=4770B88411D38E3E100067B9F6F8975A PKG=Core FLAGS=1 SIZE=67362 GEN=17 FNAME=Core.u
+DevNet: PendingLevel received: USES GUID=1E90ACA811D1ED664544279700005453 PKG=Detail FLAGS=1 SIZE=22575 GEN=1 REALGEN=2 FNAME=Detail.utx
+DevNet: PendingLevel received: USES GUID=4770B88811D38E3E100067B9F6F8975A PKG=Fire FLAGS=1 SIZE=19278 GEN=11 REALGEN=12 FNAME=Fire.u
+DevNet: PendingLevel received: USES GUID=C6DBC0A011D4916245448C8900005453 PKG=richrig FLAGS=1 SIZE=2234223 GEN=1 FNAME=richrig.utx
+DevNet: PendingLevel received: USES GUID=1E90ACBE11D1ED664544279700005453 PKG=Mine FLAGS=1 SIZE=46345 GEN=1 REALGEN=2 FNAME=Mine.utx
+DevNet: PendingLevel received: USES GUID=1C69657611D38F44100067B9F6F8975A PKG=Botpack FLAGS=1 SIZE=40142476 GEN=61 FNAME=Botpack.u
+DevNet: PendingLevel received: USES GUID=4770B88C11D38E3E100067B9F6F8975A PKG=UnrealShare FLAGS=1 SIZE=22192707 GEN=18 REALGEN=19 FNAME=UnrealShare.u
+DevNet: PendingLevel received: USES GUID=4770B88D11D38E3E100067B9F6F8975A PKG=UnrealI FLAGS=1 SIZE=18575550 GEN=11 REALGEN=12 FNAME=UnrealI.u
+DevNet: PendingLevel received: USES GUID=8076B8C911D2D270E000278383161081 PKG=Metalmys FLAGS=1 SIZE=30511 GEN=1 REALGEN=3 FNAME=Metalmys.utx
+DevNet: PendingLevel received: USES GUID=2E3682A411D379A7E0006BA2D2321081 PKG=UTtech1 FLAGS=1 SIZE=193490 GEN=1 REALGEN=3 FNAME=UTtech1.utx
+DevNet: PendingLevel received: USES GUID=A079EC3411D38D0DC00084B50A1E604F PKG=Indus6 FLAGS=1 SIZE=40621 GEN=1 REALGEN=3 FNAME=Indus6.utx
+DevNet: PendingLevel received: USES GUID=5C0AABC211D282F44544289700005453 PKG=Crypt2 FLAGS=1 SIZE=40755 GEN=1 REALGEN=3 FNAME=Crypt2.utx
+DevNet: PendingLevel received: USES GUID=1E90ACAF11D1ED664544279700005453 PKG=GenFX FLAGS=1 SIZE=131061 GEN=1 REALGEN=2 FNAME=GenFX.utx
+DevNet: PendingLevel received: USES GUID=26F204A711D421375000EDABDD7CBCDA PKG=noxxpack FLAGS=1 SIZE=914942 GEN=1 FNAME=noxxpack.utx
+DevNet: PendingLevel received: USES GUID=A3B94EE411D1ED674544E58A00005453 PKG=AmbModern FLAGS=1 SIZE=4638 GEN=1 REALGEN=2 FNAME=AmbModern.uax
+DevNet: PendingLevel received: USES GUID=A3B94EE811D1ED674544E58A00005453 PKG=DoorsMod FLAGS=1 SIZE=2413 GEN=1 REALGEN=2 FNAME=DoorsMod.uax
+DevNet: PendingLevel received: USES GUID=66FC62C111D389A2E0006BA2D2321081 PKG=RainFX FLAGS=1 SIZE=200218 GEN=1 REALGEN=3 FNAME=RainFX.utx
+DevNet: PendingLevel received: USES GUID=C47BBD4011D38CFBC00084B50A1E604F PKG=DecayedS FLAGS=1 SIZE=55284 GEN=1 REALGEN=3 FNAME=DecayedS.utx
+DevNet: PendingLevel received: USES GUID=A3B94EE511D1ED674544E58A00005453 PKG=AmbOutside FLAGS=1 SIZE=3211 GEN=1 REALGEN=2 FNAME=AmbOutside.uax
+DevNet: PendingLevel received: USES GUID=1E90ACCB11D1ED664544279700005453 PKG=SpaceFX FLAGS=1 SIZE=24842 GEN=1 REALGEN=2 FNAME=SpaceFX.utx
+DevNet: PendingLevel received: USES GUID=1E90ACC511D1ED664544279700005453 PKG=ShaneDay FLAGS=1 SIZE=10863 GEN=1 REALGEN=2 FNAME=ShaneDay.utx
+DevNet: PendingLevel received: USES GUID=09C119E511D30CAA500071A971E61804 PKG=Indus4 FLAGS=1 SIZE=11110 GEN=1 REALGEN=3 FNAME=Indus4.utx
+DevNet: PendingLevel received: USES GUID=1E90ACB011D1ED664544279700005453 PKG=GenIn FLAGS=1 SIZE=92333 GEN=1 REALGEN=2 FNAME=GenIn.utx
+DevNet: PendingLevel received: USES GUID=1E90ACB511D1ED664544279700005453 PKG=HubEffects FLAGS=1 SIZE=47025 GEN=1 REALGEN=2 FNAME=HubEffects.utx
+DevNet: PendingLevel received: USES GUID=1E90ACAE11D1ED664544279700005453 PKG=genfluid FLAGS=1 SIZE=104123 GEN=1 REALGEN=2 FNAME=genfluid.utx
+DevNet: PendingLevel received: USES GUID=2E005A6111D2FB5650004BB23FDC1804 PKG=LadrArrow FLAGS=1 SIZE=24608 GEN=1 REALGEN=2 FNAME=LadrArrow.utx
+DevNet: PendingLevel received: USES GUID=A3B94EE911D1ED674544E58A00005453 PKG=Extro FLAGS=1 SIZE=441 GEN=1 REALGEN=2 FNAME=Extro.uax
+DevNet: PendingLevel received: USES GUID=A3B94EE311D1ED674544E58A00005453 PKG=AmbAncient FLAGS=1 SIZE=4418 GEN=1 REALGEN=2 FNAME=AmbAncient.uax
+DevNet: PendingLevel received: USES GUID=791A2B2311D325DBE0006BA2D2321081 PKG=Organic FLAGS=1 SIZE=205 GEN=1 REALGEN=2 FNAME=Organic.umx
+DevNet: PendingLevel received: USES GUID=5CA303AC11D38D0CC00084B50A1E604F PKG=ShaneChurch FLAGS=1 SIZE=73919 GEN=1 REALGEN=3 FNAME=ShaneChurch.utx
+DevNet: PendingLevel received: USES GUID=93CC0A8111D3888FE0006295BE341081 PKG=SoldierSkins FLAGS=1 SIZE=102233 GEN=1 REALGEN=3 FNAME=SoldierSkins.utx
+DevNet: PendingLevel received: USES GUID=E96BC96311D31D2F4F006B8CDE9A0349 PKG=CommandoSkins FLAGS=1 SIZE=67630 GEN=1 REALGEN=3 FNAME=commandoskins.utx
+DevNet: PendingLevel received: USES GUID=B7B49CA611D38BCDE0006395BE341081 PKG=FCommandoSkins FLAGS=1 SIZE=82636 GEN=1 REALGEN=3 FNAME=FCommandoSkins.utx
+DevNet: PendingLevel received: USES GUID=D4F6ABE111D385CAE0006295BE341081 PKG=SGirlSkins FLAGS=1 SIZE=117139 GEN=1 REALGEN=3 FNAME=SGirlSkins.utx
+DevNet: PendingLevel received: USES GUID=24E5A72411D321104F006B8CDE9A0349 PKG=BossSkins FLAGS=1 SIZE=25774 GEN=1 REALGEN=3 FNAME=BossSkins.utx
+DevNet: PendingLevel received: USES GUID=2DB53B0011D3E9001000D3B9F6F8975A PKG=MultiMesh FLAGS=1 SIZE=76003 GEN=1 FNAME=multimesh.u
+DevNet: PendingLevel received: USES GUID=13F8255A11D3DBA01000CBB9F6F8975A PKG=EpicCustomModels FLAGS=1 SIZE=2337681 GEN=1 FNAME=epiccustommodels.u
+DevNet: PendingLevel received: USES GUID=D011F66E11D3E9B81000D5B9F6F8975A PKG=Relics FLAGS=1 SIZE=453755 GEN=1 REALGEN=2 FNAME=relics.u
+DevNet: PendingLevel received: USES GUID=2F84A16011D3E71FA000518AB12F18D2 PKG=TCowMeshSkins FLAGS=3 SIZE=613832 GEN=1 FNAME=tcowmeshskins.utx
+DevNet: PendingLevel received: USES GUID=2F84A16111D3E71FA000518AB12F18D2 PKG=TNaliMeshSkins FLAGS=3 SIZE=542925 GEN=1 FNAME=tnalimeshskins.utx
+DevNet: PendingLevel received: USES GUID=2F84A16311D3E71FA000518AB12F18D2 PKG=TSkMSkins FLAGS=1 SIZE=4076854 GEN=1 FNAME=tskmskins.utx
+DevNet: PendingLevel received: USES GUID=FB1EB2314D8BF569AE12C6BF1A08A2F7 PKG=de FLAGS=1 SIZE=72169 GEN=1 FNAME=de.u
+DevNet: PendingLevel received: USES GUID=71F909C24CBFDCF67036A8B3E97E6F82 PKG=NWUltraGoreSSEc FLAGS=1 SIZE=7692025 GEN=1 FNAME=NWUltraGoreSSEc.u
+DevNet: PendingLevel received: USES GUID=92A929CA42005F105C5C4A886E3B8357 PKG=MVE2h FLAGS=1 SIZE=339128 GEN=1 FNAME=MVE2h.u
+DevNet: PendingLevel received: DLMGR CLASS=Engine.ChannelDownload PARAMS=Enabled COMPRESSION=0
+DevNet: PendingLevel received: WELCOME LEVEL=DM-Astonish LONE=0
+DevNet: Welcomed by server: LEVEL=DM-Astonish LONE=0
+DevNet: Receiving package 'DM-Astonish'
+DevNet: Receiving package 'FRZ_Iceotope'
+DevNet: Receiving package 'richrig'
+Log: LoadMap: 192.168.80.10/DM-Astonish?Name=Agora-chan?Class=BotPack.TFemale1?Team=1?skin=FCommandoSkins.daco?Face=FCommandoSkins.jayce?Voice=BotPack.VoiceFemaleTwo?Checksum=NoChecksum?password=Ag0raCHANis_myW1F3
+DevAudio: Galaxy SetViewport: WindowsViewport0
+Log: UDEMO: Successfully got list of demos
+Log: Collecting garbage
+Log: Purging garbage
+Log: Unloading: Package Suprfist
+NetComeGo: Close TcpipConnection1 05/23/24 18:42:51
+Exit: WinSock shut down
+Log: Unloading: Package CTF-Face
+Log: Unloading: Package SkyCity
+Log: Unloading: Package PlayrShp
+Log: Unloading: Package JWSky
+Log: Unloading: Package GreatFire
+Log: Unloading: Package utcrypt
+Log: Unloading: Package CTF
+Log: Unloading: Package XbpFX
+Log: Unloading: Package XFX
+Log: Unloading: Package Palettes
+Log: Unloading: Package Foregone
+Log: Unloading: Package CCHS4
+Log: Unloading: Package FlagAnnouncementsV2
+Log: Unloading: Package DefaultAnnouncements
+Log: Unloading: Package KickIdlePlayers2
+Log: Unloading: Package VoteSys_v12
+Log: Unloading: Package EnhancedItems
+Log: Unloading: Package WhoPushedMe
+Log: Unloading: Package ZeroPingPlus103
+Log: Unloading: Package SLV205
+Log: Unloading: Package SLV2Sounds
+Log: Unloading: Package SLV2Textures
+Log: Unloading: Package SLV2Models
+Log: Unloading: Package SLV2Fonts
+Log: Unloading: Package BTPPUser
+Log: Unloading: Package CountryFlags3
+Log: Unloading: Package BTPlusPlusPublicUTBT_beta3
+Log: Unloading: Package UTChaosMap
+Log: Unloading: Package ChaosUTRHUD
+Log: Unloading: Package MonsterHunt
+Log: Unloading: Package Indus1
+Log: Unloading: Package GenEarth
+Log: Unloading: Package DM-Zeto
+Log: Unloading: Package Mech8
+Log: Unloading: Package UTtech3
+Log: Unloading: Package Activates
+Log: Unloading: Package Skybox
+Log: Unloading: Package DM-Grinder
+Log: Unloading: Package UT
+Log: Unloading: Package firebr
+Log: Garbage: objects: 38975->29988; refs: 520620
+Log: Bringing Level DM-Astonish.MyLevel up for play (312)...
+Log: Spawning new actor for Viewport WindowsViewport0
+ScriptLog: Team 1
+ScriptLog: Login: Agora-chan
+ScriptLog: Password Ag0raCHANis_myW1F3
+Log: Possessed PlayerPawn: TFemale1 Entry.TFemale10
+Init: Initialized moving brush tracker for Level DM-Astonish.MyLevel
+DevAudio: Galaxy SetViewport: WindowsViewport0
+Log: Possessed PlayerPawn: TFemale1 DM-Astonish.TFemale10
+Log: UDEMO: Successfully got list of demos
+ScriptLog: Getting SGirlSkins.fbth1T_0, SGirlSkins.fbth2T_0, SGirlSkins.fbth3, SGirlSkins.fbth4Annaka
+ScriptLog: Getting SGirlSkins.Garf1, SGirlSkins.Garf2, SGirlSkins.Garf3, SGirlSkins.Garf4Vixen
+ScriptLog: Getting FCommandoSkins.goth1T_2, FCommandoSkins.goth2T_2, None, FCommandoSkins.goth4Freylis
+Log: Browse: 192.168.80.10/CTF-Face][?Name=Agora-chan?Class=BotPack.TFemale1?Team=1?skin=FCommandoSkins.daco?Face=FCommandoSkins.jayce?Voice=BotPack.VoiceFemaleTwo?Checksum=NoChecksum?password=Ag0raCHANis_myW1F3?Game=Botpack.CTFGame
+Init: WinSock: Socket queue 32768 / 32768
+DevNet: Game client on port 0, rate 20000
+Log: URL: Adding default option Name=Agora-chan
+Log: URL: Adding default option Class=BotPack.TFemale1
+Log: URL: Adding default option Team=1
+Log: URL: Adding default option skin=FCommandoSkins.daco
+Log: URL: Adding default option Face=FCommandoSkins.jayce
+Log: URL: Adding default option Voice=BotPack.VoiceFemaleTwo
+Log: Browse: Index.unr?failed?Name=Agora-chan?Class=BotPack.TFemale1?Team=1?skin=FCommandoSkins.daco?Face=FCommandoSkins.jayce?Voice=BotPack.VoiceFemaleTwo
+Log: Failed; returning to Entry
+Init: Shut down moving brush tracker for Level DM-Astonish.MyLevel
+Log: UDEMO: Successfully got list of demos
+Log: Spawning new actor for Viewport WindowsViewport0
+ScriptLog: Team 1
+ScriptLog: Login: Agora-chan
+Log: Possessed PlayerPawn: TFemale1 Entry.TFemale10
+DevAudio: Galaxy SetViewport: WindowsViewport0
+DevNet: PendingLevel received: CHALLENGE VER=469 CHALLENGE=-1110682196 STATS=1
+DevNet: PendingLevel received: USES GUID=BE440F0711D423AE5000EDABDD7CBCDA PKG=CTF-Face][ FLAGS=1 SIZE=962312 GEN=1 FNAME=CTF-Face][.unr
+DevNet: PendingLevel received: USES GUID=D18A7B9211D38F04100067B9F6F8975A PKG=Engine FLAGS=1 SIZE=1260153 GEN=56 REALGEN=60 FNAME=Engine.u
+DevNet: PendingLevel received: USES GUID=4770B88411D38E3E100067B9F6F8975A PKG=Core FLAGS=1 SIZE=67362 GEN=17 FNAME=Core.u
+DevNet: PendingLevel received: USES GUID=2E3682A411D379A7E0006BA2D2321081 PKG=UTtech1 FLAGS=1 SIZE=193490 GEN=1 REALGEN=3 FNAME=UTtech1.utx
+DevNet: PendingLevel received: USES GUID=1E90ACA811D1ED664544279700005453 PKG=Detail FLAGS=1 SIZE=22575 GEN=1 REALGEN=2 FNAME=Detail.utx
+DevNet: PendingLevel received: USES GUID=4770B88811D38E3E100067B9F6F8975A PKG=Fire FLAGS=1 SIZE=19278 GEN=11 REALGEN=12 FNAME=Fire.u
+DevNet: PendingLevel received: USES GUID=1C69657611D38F44100067B9F6F8975A PKG=Botpack FLAGS=1 SIZE=40142476 GEN=61 FNAME=Botpack.u
+DevNet: PendingLevel received: USES GUID=4770B88C11D38E3E100067B9F6F8975A PKG=UnrealShare FLAGS=1 SIZE=22192707 GEN=18 REALGEN=19 FNAME=UnrealShare.u
+DevNet: PendingLevel received: USES GUID=4770B88D11D38E3E100067B9F6F8975A PKG=UnrealI FLAGS=1 SIZE=18575550 GEN=11 REALGEN=12 FNAME=UnrealI.u
+DevNet: PendingLevel received: USES GUID=A837EE4011D40FFC5000E289CC68B8DA PKG=xutfx FLAGS=1 SIZE=335490 GEN=1 FNAME=xutfx.utx
+DevNet: PendingLevel received: USES GUID=1E90ACB711D1ED664544279700005453 PKG=JWSky FLAGS=1 SIZE=8502 GEN=1 REALGEN=2 FNAME=JWSky.utx
+DevNet: PendingLevel received: USES GUID=1E90ACCA11D1ED664544279700005453 PKG=SkyCity FLAGS=1 SIZE=87218 GEN=1 REALGEN=2 FNAME=SkyCity.utx
+DevNet: PendingLevel received: USES GUID=1E90ACAE11D1ED664544279700005453 PKG=genfluid FLAGS=1 SIZE=104123 GEN=1 REALGEN=2 FNAME=genfluid.utx
+DevNet: PendingLevel received: USES GUID=1E90ACAF11D1ED664544279700005453 PKG=GenFX FLAGS=1 SIZE=131061 GEN=1 REALGEN=2 FNAME=GenFX.utx
+DevNet: PendingLevel received: USES GUID=002B3AA711D3806DE0006295BE341081 PKG=FractalFX FLAGS=1 SIZE=476229 GEN=1 REALGEN=3 FNAME=FractalFX.utx
+DevNet: PendingLevel received: USES GUID=F717F4C611D38B66C00081B50A1E604F PKG=XbpFX FLAGS=1 SIZE=46056 GEN=1 REALGEN=3 FNAME=XbpFX.utx
+DevNet: PendingLevel received: USES GUID=1E90ACCF11D1ED664544279700005453 PKG=XFX FLAGS=1 SIZE=23579 GEN=1 REALGEN=2 FNAME=XFX.utx
+DevNet: PendingLevel received: USES GUID=C47BBD4011D38CFBC00084B50A1E604F PKG=DecayedS FLAGS=1 SIZE=55284 GEN=1 REALGEN=3 FNAME=DecayedS.utx
+DevNet: PendingLevel received: USES GUID=1E90ACC111D1ED664544279700005453 PKG=Palettes FLAGS=1 SIZE=92697 GEN=1 REALGEN=2 FNAME=Palettes.utx
+DevNet: PendingLevel received: USES GUID=A3B94EE811D1ED674544E58A00005453 PKG=DoorsMod FLAGS=1 SIZE=2413 GEN=1 REALGEN=2 FNAME=DoorsMod.uax
+DevNet: PendingLevel received: USES GUID=D84EFC3911D3627FE0005F95BE341081 PKG=CTF FLAGS=1 SIZE=61692 GEN=1 REALGEN=3 FNAME=CTF.utx
+DevNet: PendingLevel received: USES GUID=FD6597E211D38A65E0006BA2D2321081 PKG=uttech2 FLAGS=1 SIZE=65129 GEN=1 REALGEN=3 FNAME=UTtech2.utx
+DevNet: PendingLevel received: USES GUID=1E90ACCB11D1ED664544279700005453 PKG=SpaceFX FLAGS=1 SIZE=24842 GEN=1 REALGEN=2 FNAME=SpaceFX.utx
+DevNet: PendingLevel received: USES GUID=5CA303AC11D38D0CC00084B50A1E604F PKG=ShaneChurch FLAGS=1 SIZE=73919 GEN=1 REALGEN=3 FNAME=ShaneChurch.utx
+DevNet: PendingLevel received: USES GUID=C073770F11D2D1A4E000278383161081 PKG=Foregone FLAGS=1 SIZE=206 GEN=1 REALGEN=2 FNAME=Foregone.umx
+DevNet: PendingLevel received: USES GUID=93CC0A8111D3888FE0006295BE341081 PKG=SoldierSkins FLAGS=1 SIZE=102233 GEN=1 REALGEN=3 FNAME=SoldierSkins.utx
+DevNet: PendingLevel received: USES GUID=E96BC96311D31D2F4F006B8CDE9A0349 PKG=CommandoSkins FLAGS=1 SIZE=67630 GEN=1 REALGEN=3 FNAME=commandoskins.utx
+DevNet: PendingLevel received: USES GUID=B7B49CA611D38BCDE0006395BE341081 PKG=FCommandoSkins FLAGS=1 SIZE=82636 GEN=1 REALGEN=3 FNAME=FCommandoSkins.utx
+DevNet: PendingLevel received: USES GUID=D4F6ABE111D385CAE0006295BE341081 PKG=SGirlSkins FLAGS=1 SIZE=117139 GEN=1 REALGEN=3 FNAME=SGirlSkins.utx
+DevNet: PendingLevel received: USES GUID=24E5A72411D321104F006B8CDE9A0349 PKG=BossSkins FLAGS=1 SIZE=25774 GEN=1 REALGEN=3 FNAME=BossSkins.utx
+DevNet: PendingLevel received: USES GUID=2DB53B0011D3E9001000D3B9F6F8975A PKG=MultiMesh FLAGS=1 SIZE=76003 GEN=1 FNAME=multimesh.u
+DevNet: PendingLevel received: USES GUID=13F8255A11D3DBA01000CBB9F6F8975A PKG=EpicCustomModels FLAGS=1 SIZE=2337681 GEN=1 FNAME=epiccustommodels.u
+DevNet: PendingLevel received: USES GUID=D011F66E11D3E9B81000D5B9F6F8975A PKG=Relics FLAGS=1 SIZE=453755 GEN=1 REALGEN=2 FNAME=relics.u
+DevNet: PendingLevel received: USES GUID=2F84A16011D3E71FA000518AB12F18D2 PKG=TCowMeshSkins FLAGS=3 SIZE=613832 GEN=1 FNAME=tcowmeshskins.utx
+DevNet: PendingLevel received: USES GUID=2F84A16111D3E71FA000518AB12F18D2 PKG=TNaliMeshSkins FLAGS=3 SIZE=542925 GEN=1 FNAME=tnalimeshskins.utx
+DevNet: PendingLevel received: USES GUID=2F84A16311D3E71FA000518AB12F18D2 PKG=TSkMSkins FLAGS=1 SIZE=4076854 GEN=1 FNAME=tskmskins.utx
+DevNet: PendingLevel received: USES GUID=FB1EB2314D8BF569AE12C6BF1A08A2F7 PKG=de FLAGS=1 SIZE=72169 GEN=1 FNAME=de.u
+DevNet: PendingLevel received: USES GUID=71F909C24CBFDCF67036A8B3E97E6F82 PKG=NWUltraGoreSSEc FLAGS=1 SIZE=7692025 GEN=1 FNAME=NWUltraGoreSSEc.u
+DevNet: PendingLevel received: USES GUID=92A929CA42005F105C5C4A886E3B8357 PKG=MVE2h FLAGS=1 SIZE=339128 GEN=1 FNAME=MVE2h.u
+DevNet: PendingLevel received: DLMGR CLASS=Engine.ChannelDownload PARAMS=Enabled COMPRESSION=0
+DevNet: PendingLevel received: WELCOME LEVEL=CTF-Face][ LONE=0
+DevNet: Welcomed by server: LEVEL=CTF-Face][ LONE=0
+Log: LoadMap: 192.168.80.10/CTF-Face][?Name=Agora-chan?Class=BotPack.TFemale1?Team=1?skin=FCommandoSkins.daco?Face=FCommandoSkins.jayce?Voice=BotPack.VoiceFemaleTwo?Checksum=NoChecksum?password=Ag0raCHANis_myW1F3
+DevAudio: Galaxy SetViewport: WindowsViewport0
+Log: UDEMO: Successfully got list of demos
+Log: Collecting garbage
+Log: Purging garbage
+NetComeGo: Close TcpipConnection2 05/23/24 18:44:58
+Exit: WinSock shut down
+Log: Unloading: Package Crypt2
+Log: Unloading: Package AmbModern
+Log: Unloading: Package HubEffects
+Log: Unloading: Package Extro
+Log: Unloading: Package AmbOutside
+Log: Unloading: Package GenIn
+Log: Unloading: Package RainFX
+Log: Unloading: Package AmbAncient
+Log: Unloading: Package Metalmys
+Log: Unloading: Package mine
+Log: Unloading: Package shaneDAY
+Log: Unloading: Package Indus6
+Log: Unloading: Package Indus4
+Log: Unloading: Package Organic
+Log: Unloading: Package FRZ_Iceotope
+Log: Unloading: Package DM-Astonish
+Log: Unloading: Package richrig
+Log: Unloading: Package noxxpack
+Log: Garbage: objects: 37649->27950; refs: 400786
+Log: Bringing Level CTF-Face][.MyLevel up for play (312)...
+Log: Spawning new actor for Viewport WindowsViewport0
+ScriptLog: Team 1
+ScriptLog: Login: Agora-chan
+ScriptLog: Password Ag0raCHANis_myW1F3
+Log: Possessed PlayerPawn: TFemale1 Entry.TFemale10
+Init: Initialized moving brush tracker for Level CTF-Face][.MyLevel
+DevAudio: Galaxy SetViewport: WindowsViewport0
+Log: Possessed PlayerPawn: TFemale1 CTF-Face][.TFemale10
+Log: UDEMO: Successfully got list of demos
+Warning: Failed to load CTF-Face-SE: Can't find file for package CTF-Face-SE..
+Warning: Failed to load "Texture CTF-Face-SE.Screenshot": Can't find file for package CTF-Face-SE..
+Warning: Failed to load CTF-Face-SE: Can't find file for package CTF-Face-SE..
+Warning: Failed to load "LevelInfo CTF-Face-SE.LevelInfo0": Can't find file for package CTF-Face-SE..
+Warning: Failed to load CTF-Face-SE: Can't find file for package CTF-Face-SE..
+Warning: Failed to load "LevelInfo CTF-Face-SE.LevelInfo1": Can't find file for package CTF-Face-SE..
+Warning: Failed to load CTF-Face-SE: Can't find file for package CTF-Face-SE..
+Warning: Failed to load "LevelSummary CTF-Face-SE.LevelSummary": Can't find file for package CTF-Face-SE..
+Log: Browse: 192.168.80.10/CTF-Face?Name=Agora-chan?Class=BotPack.TFemale1?Team=1?skin=FCommandoSkins.daco?Face=FCommandoSkins.jayce?Voice=BotPack.VoiceFemaleTwo?Checksum=NoChecksum?password=Ag0raCHANis_myW1F3?Game=Botpack.CTFGame
+Init: WinSock: Socket queue 32768 / 32768
+DevNet: Game client on port 0, rate 20000
+ScriptLog: Getting CommandoSkins.cmdo1, CommandoSkins.cmdo2Gorn, CommandoSkins.cmdo3, CommandoSkins.cmdo4
+ScriptLog: Getting CommandoSkins.daco1, CommandoSkins.daco2Graves, CommandoSkins.daco3, CommandoSkins.daco4
+Log: Enter SetRes()
+Log: UnSetRes() -> m_d3d9 != NULL
+Log: D3D adapter driver      : amdxn32.dll
+Log: D3D adapter description : AMD Radeon RX 6700 XT
+Log: D3D adapter id          : 0x1002:0x73DF
+Init: Depth bits: 24
+Log: 8 Texture Mapping Units found
+Log: Trying to use S3TC extension.
+Log: MinLogTextureSize = 2
+Log: MaxLogTextureSize = 14
+Log: UseDetailAlpha = 1
+ScriptLog: Getting SGirlSkins.Garf1, SGirlSkins.Garf2, SGirlSkins.Garf3, SGirlSkins.Garf4Vixen
+Log: URL: Adding default option Name=Agora-chan
+Log: URL: Adding default option Class=BotPack.TFemale1
+Log: URL: Adding default option Team=1
+Log: URL: Adding default option skin=FCommandoSkins.daco
+Log: URL: Adding default option Face=FCommandoSkins.jayce
+Log: URL: Adding default option Voice=BotPack.VoiceFemaleTwo
+Log: Browse: Index.unr?failed?Name=Agora-chan?Class=BotPack.TFemale1?Team=1?skin=FCommandoSkins.daco?Face=FCommandoSkins.jayce?Voice=BotPack.VoiceFemaleTwo
+Log: Failed; returning to Entry
+Init: Shut down moving brush tracker for Level CTF-Face][.MyLevel
+Log: UDEMO: Successfully got list of demos
+Log: Spawning new actor for Viewport WindowsViewport0
+ScriptLog: Team 1
+ScriptLog: Login: Agora-chan
+Log: Possessed PlayerPawn: TFemale1 Entry.TFemale10
+DevAudio: Galaxy SetViewport: WindowsViewport0
+DevNet: PendingLevel received: CHALLENGE VER=469 CHALLENGE=1267711642 STATS=1
+DevNet: PendingLevel received: USES GUID=68722E6411D38195E0006BA2D2321081 PKG=CTF-Face FLAGS=1 SIZE=980156 GEN=1 FNAME=CTF-Face.unr
+DevNet: PendingLevel received: USES GUID=D18A7B9211D38F04100067B9F6F8975A PKG=Engine FLAGS=1 SIZE=1260153 GEN=56 REALGEN=60 FNAME=Engine.u
+DevNet: PendingLevel received: USES GUID=4770B88411D38E3E100067B9F6F8975A PKG=Core FLAGS=1 SIZE=67362 GEN=17 FNAME=Core.u
+DevNet: PendingLevel received: USES GUID=1E90ACCA11D1ED664544279700005453 PKG=SkyCity FLAGS=1 SIZE=87218 GEN=1 REALGEN=2 FNAME=SkyCity.utx
+DevNet: PendingLevel received: USES GUID=1E90ACA811D1ED664544279700005453 PKG=Detail FLAGS=1 SIZE=22575 GEN=1 REALGEN=2 FNAME=Detail.utx
+DevNet: PendingLevel received: USES GUID=4770B88811D38E3E100067B9F6F8975A PKG=Fire FLAGS=1 SIZE=19278 GEN=11 REALGEN=12 FNAME=Fire.u
+DevNet: PendingLevel received: USES GUID=5CA303AC11D38D0CC00084B50A1E604F PKG=ShaneChurch FLAGS=1 SIZE=73919 GEN=1 REALGEN=3 FNAME=ShaneChurch.utx
+DevNet: PendingLevel received: USES GUID=2E3682A411D379A7E0006BA2D2321081 PKG=UTtech1 FLAGS=1 SIZE=193490 GEN=1 REALGEN=3 FNAME=UTtech1.utx
+DevNet: PendingLevel received: USES GUID=1C69657611D38F44100067B9F6F8975A PKG=Botpack FLAGS=1 SIZE=40142476 GEN=61 FNAME=Botpack.u
+DevNet: PendingLevel received: USES GUID=4770B88C11D38E3E100067B9F6F8975A PKG=UnrealShare FLAGS=1 SIZE=22192707 GEN=18 REALGEN=19 FNAME=UnrealShare.u
+DevNet: PendingLevel received: USES GUID=4770B88D11D38E3E100067B9F6F8975A PKG=UnrealI FLAGS=1 SIZE=18575550 GEN=11 REALGEN=12 FNAME=UnrealI.u
+DevNet: PendingLevel received: USES GUID=1E90ACC211D1ED664544279700005453 PKG=PlayrShp FLAGS=1 SIZE=65490 GEN=1 REALGEN=2 FNAME=PlayrShp.utx
+DevNet: PendingLevel received: USES GUID=1E90ACB711D1ED664544279700005453 PKG=JWSky FLAGS=1 SIZE=8502 GEN=1 REALGEN=2 FNAME=JWSky.utx
+DevNet: PendingLevel received: USES GUID=1E90ACB311D1ED664544279700005453 PKG=GreatFire FLAGS=1 SIZE=13327 GEN=1 REALGEN=2 FNAME=GreatFire.utx
+DevNet: PendingLevel received: USES GUID=05F3756011D378EDE0006BA2D2321081 PKG=utcrypt FLAGS=1 SIZE=38600 GEN=1 REALGEN=3 FNAME=utcrypt.utx
+DevNet: PendingLevel received: USES GUID=1E90ACAE11D1ED664544279700005453 PKG=genfluid FLAGS=1 SIZE=104123 GEN=1 REALGEN=2 FNAME=genfluid.utx
+DevNet: PendingLevel received: USES GUID=1E90ACAF11D1ED664544279700005453 PKG=GenFX FLAGS=1 SIZE=131061 GEN=1 REALGEN=2 FNAME=GenFX.utx
+DevNet: PendingLevel received: USES GUID=D84EFC3911D3627FE0005F95BE341081 PKG=CTF FLAGS=1 SIZE=61692 GEN=1 REALGEN=3 FNAME=CTF.utx
+DevNet: PendingLevel received: USES GUID=5C0AABC211D282F44544289700005453 PKG=Crypt2 FLAGS=1 SIZE=40755 GEN=1 REALGEN=3 FNAME=Crypt2.utx
+DevNet: PendingLevel received: USES GUID=F717F4C611D38B66C00081B50A1E604F PKG=XbpFX FLAGS=1 SIZE=46056 GEN=1 REALGEN=3 FNAME=XbpFX.utx
+DevNet: PendingLevel received: USES GUID=1E90ACCF11D1ED664544279700005453 PKG=XFX FLAGS=1 SIZE=23579 GEN=1 REALGEN=2 FNAME=XFX.utx
+DevNet: PendingLevel received: USES GUID=C47BBD4011D38CFBC00084B50A1E604F PKG=DecayedS FLAGS=1 SIZE=55284 GEN=1 REALGEN=3 FNAME=DecayedS.utx
+DevNet: PendingLevel received: USES GUID=1E90ACC111D1ED664544279700005453 PKG=Palettes FLAGS=1 SIZE=92697 GEN=1 REALGEN=2 FNAME=Palettes.utx
+DevNet: PendingLevel received: USES GUID=1E90ACCB11D1ED664544279700005453 PKG=SpaceFX FLAGS=1 SIZE=24842 GEN=1 REALGEN=2 FNAME=SpaceFX.utx
+DevNet: PendingLevel received: USES GUID=C073770F11D2D1A4E000278383161081 PKG=Foregone FLAGS=1 SIZE=206 GEN=1 REALGEN=2 FNAME=Foregone.umx
+DevNet: PendingLevel received: USES GUID=93CC0A8111D3888FE0006295BE341081 PKG=SoldierSkins FLAGS=1 SIZE=102233 GEN=1 REALGEN=3 FNAME=SoldierSkins.utx
+DevNet: PendingLevel received: USES GUID=E96BC96311D31D2F4F006B8CDE9A0349 PKG=CommandoSkins FLAGS=1 SIZE=67630 GEN=1 REALGEN=3 FNAME=commandoskins.utx
+DevNet: PendingLevel received: USES GUID=B7B49CA611D38BCDE0006395BE341081 PKG=FCommandoSkins FLAGS=1 SIZE=82636 GEN=1 REALGEN=3 FNAME=FCommandoSkins.utx
+DevNet: PendingLevel received: USES GUID=D4F6ABE111D385CAE0006295BE341081 PKG=SGirlSkins FLAGS=1 SIZE=117139 GEN=1 REALGEN=3 FNAME=SGirlSkins.utx
+DevNet: PendingLevel received: USES GUID=24E5A72411D321104F006B8CDE9A0349 PKG=BossSkins FLAGS=1 SIZE=25774 GEN=1 REALGEN=3 FNAME=BossSkins.utx
+DevNet: PendingLevel received: USES GUID=2DB53B0011D3E9001000D3B9F6F8975A PKG=MultiMesh FLAGS=1 SIZE=76003 GEN=1 FNAME=multimesh.u
+DevNet: PendingLevel received: USES GUID=13F8255A11D3DBA01000CBB9F6F8975A PKG=EpicCustomModels FLAGS=1 SIZE=2337681 GEN=1 FNAME=epiccustommodels.u
+DevNet: PendingLevel received: USES GUID=D011F66E11D3E9B81000D5B9F6F8975A PKG=Relics FLAGS=1 SIZE=453755 GEN=1 REALGEN=2 FNAME=relics.u
+DevNet: PendingLevel received: USES GUID=2F84A16011D3E71FA000518AB12F18D2 PKG=TCowMeshSkins FLAGS=3 SIZE=613832 GEN=1 FNAME=tcowmeshskins.utx
+DevNet: PendingLevel received: USES GUID=2F84A16111D3E71FA000518AB12F18D2 PKG=TNaliMeshSkins FLAGS=3 SIZE=542925 GEN=1 FNAME=tnalimeshskins.utx
+DevNet: PendingLevel received: USES GUID=2F84A16311D3E71FA000518AB12F18D2 PKG=TSkMSkins FLAGS=1 SIZE=4076854 GEN=1 FNAME=tskmskins.utx
+DevNet: PendingLevel received: USES GUID=FB1EB2314D8BF569AE12C6BF1A08A2F7 PKG=de FLAGS=1 SIZE=72169 GEN=1 FNAME=de.u
+DevNet: PendingLevel received: USES GUID=71F909C24CBFDCF67036A8B3E97E6F82 PKG=NWUltraGoreSSEc FLAGS=1 SIZE=7692025 GEN=1 FNAME=NWUltraGoreSSEc.u
+DevNet: PendingLevel received: USES GUID=92A929CA42005F105C5C4A886E3B8357 PKG=MVE2h FLAGS=1 SIZE=339128 GEN=1 FNAME=MVE2h.u
+DevNet: PendingLevel received: DLMGR CLASS=Engine.ChannelDownload PARAMS=Enabled COMPRESSION=0
+DevNet: PendingLevel received: WELCOME LEVEL=CTF-Face LONE=0
+DevNet: Welcomed by server: LEVEL=CTF-Face LONE=0
+Log: LoadMap: 192.168.80.10/CTF-Face?Name=Agora-chan?Class=BotPack.TFemale1?Team=1?skin=FCommandoSkins.daco?Face=FCommandoSkins.jayce?Voice=BotPack.VoiceFemaleTwo?Checksum=NoChecksum?password=Ag0raCHANis_myW1F3
+DevAudio: Galaxy SetViewport: WindowsViewport0
+Log: UDEMO: Successfully got list of demos
+Log: Collecting garbage
+Log: Purging garbage
+Log: Unloading: Package xutfx
+NetComeGo: Close TcpipConnection3 05/23/24 18:45:19
+Exit: WinSock shut down
+Log: Unloading: Package uttech2
+Log: Unloading: Package CTF-Face][
+Log: Unloading: Package FractalFX
+Log: Unloading: Package DoorsMod
+Log: Garbage: objects: 32777->28256; refs: 393228
+Log: Bringing Level CTF-Face.MyLevel up for play (312)...
+Log: Spawning new actor for Viewport WindowsViewport0
+ScriptLog: Team 1
+ScriptLog: Login: Agora-chan
+ScriptLog: Password Ag0raCHANis_myW1F3
+Log: Possessed PlayerPawn: TFemale1 Entry.TFemale10
+Init: Initialized moving brush tracker for Level CTF-Face.MyLevel
+DevAudio: Galaxy SetViewport: WindowsViewport0
+Log: Possessed PlayerPawn: TFemale1 CTF-Face.TFemale10
+Log: UDEMO: Successfully got list of demos
+ScriptLog: Getting CommandoSkins.cmdo1, CommandoSkins.cmdo2Blake, CommandoSkins.cmdo3, CommandoSkins.cmdo4
+ScriptLog: Getting SoldierSkins.sldr1, SoldierSkins.sldr2, SoldierSkins.sldr3, SoldierSkins.Sldr4Rankin
+ScriptLog: Getting SoldierSkins.Blkt1, SoldierSkins.Blkt2, SoldierSkins.Blkt3, SoldierSkins.blkt4Malcom
 Log: appRequestExit(0)
 Exit: Preparing to exit.
 Log: Collecting garbage
@@ -138,10 +627,6 @@ Log: Unloading: Package UBrowser
 Log: Unbound to IpDrv.dll
 Log: Unloading: Package IpDrv
 Log: Unloading: Package Announcer
-Log: Unloading: Package CUT-Logo-Map
-Log: Unloading: Package CUT_Desktop
-Log: Unloading: Package Suprfist
-Init: Shut down moving brush tracker for Level CUT-Logo-Map.MyLevel
 Log: Unloading: Package UTMenu
 Log: Unloading: Package LadderSounds
 Log: Unbound to UWeb.dll
@@ -158,10 +643,58 @@ Log: Unloading: Package LadderFonts
 Log: Unloading: Package UWindowFonts
 Log: Unbound to udemo.dll
 Log: Unloading: Package udemo
-Log: Unloading: Package RelicsBindings
 Log: Unloading: Package UTBrowser
-Log: Garbage: objects: 24898->0; refs: 0
+Log: Unloading: Package Chaosgames
+Log: Unloading: Package ChaosUT
+Log: Unloading: Package chaostex
+Log: Unloading: Package ChaosSounds
+Log: Unloading: Package chaossounds2
+Log: Unloading: Package ChaosUTMedia1
+Log: Unloading: Package ChaosUTMedia5
+Log: Unloading: Package ChaosUTMedia2
+Log: Unloading: Package chaostex2
+Log: Unloading: Package ChaosUTMedia4
+Log: Unloading: Package ChaosUTMedia3
+Log: Unloading: Package chaos_special_tex
+Log: Unloading: Package ChaosUTMiscMuts
+Log: Unloading: Package Detail
+Log: Unloading: Package ShaneChurch
+Log: Unloading: Package UTtech1
+Log: Unloading: Package genfluid
+Log: Unloading: Package GenFX
+Log: Unloading: Package DecayedS
+Log: Unloading: Package SpaceFX
+Log: Unloading: Package SoldierSkins
+Log: Unloading: Package CommandoSkins
+Log: Unloading: Package SGirlSkins
+Log: Unloading: Package BossSkins
+Log: Unloading: Package MVE2h
+Log: Unloading: Package relics
+Log: Unloading: Package XbpFX
+Log: Unloading: Package Palettes
+Log: Unloading: Package Foregone
+Log: Unloading: Package XFX
+Log: Unloading: Package CTF
+Log: Unloading: Package SkyCity
+Log: Unloading: Package JWSky
+Log: Unloading: Package EpicCustomModels
+Log: Unloading: Package NWUltraGoreSSEc
+Log: Unloading: Package TNaliMeshSkins
+Log: Unloading: Package TCowMeshSkins
+Log: Unloading: Package de
+Log: Unloading: Package MultiMesh
+Log: Unloading: Package TSkMSkins
+NetComeGo: Close TcpipConnection4 05/23/24 18:46:43
+Exit: WinSock shut down
+Log: Unloading: Package Crypt2
+Log: Unloading: Package utcrypt
+Log: Unloading: Package GreatFire
+Log: Unloading: Package PlayrShp
+Log: Unloading: Package CTF-Face
+Log: Unloading: Package utmenu23
+Init: Shut down moving brush tracker for Level CTF-Face.MyLevel
+Log: Garbage: objects: 32143->0; refs: 0
 Exit: Object subsystem successfully closed.
 Exit: Exiting.
 Exit: Allocation checking disabled
-Log: Log file closed, 03/12/24 14:09:15
+Log: Log file closed, 05/23/24 18:46:43

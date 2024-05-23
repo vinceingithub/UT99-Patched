@@ -1,0 +1,8 @@
+[Public]
+
+Object=(Name=NWUltraGoreSSEc.NWBloodyMess_UGSSE,Class=Class,MetaClass=Engine.Mutator,Description="Ultra Gore (NW3 SSE),Ultra Gore Special Standalone Edition (powered by Nali Weapons 3)")
+
+Object=(Name=NWUltraGoreSSEc.NWMainModMenuItem_UGSSE,Class=Class,MetaClass=UMenu.UMenuModMenuItem)
+
+Object=(Name=NWUltraGoreSSEc.NWClientGoreSettingsMenuPageInfo_UGSSE,Class=Class,MetaClass=NWUltraGoreSSEc.NWMenuPageInfo_UGSSE)
+Object=(Name=NWUltraGoreSSEc.NWServerGoreSettingsMenuPageInfo_UGSSE,Class=Class,MetaClass=NWUltraGoreSSEc.NWMenuPageInfo_UGSSE)
