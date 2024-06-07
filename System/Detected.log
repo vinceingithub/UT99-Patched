@@ -1,10 +1,10 @@
-﻿Log: Log file open, 02/28/24 21:40:59
+﻿Log: Log file open, 06/07/24 16:05:43
 Init: Name subsystem initialized
 Init: Version: 469
 Init: Revision: d (Release)
 Init: Compiled: Dec  9 2023 12:11:13
 Init: Command line: testrendev=D3DDrv.D3DRenderDevice log=Detected.log
-Init: Base directory: D:\Downloads\Unreal Tournament 1999 GOTY\System\
+Init: Base directory: D:\Downloads\Vince's Canned Unreal Tournament\System\
 Init: Character set: Unicode
 Log: Bound to Engine.dll
 Log: Bound to Core.dll
@@ -13,13 +13,13 @@ Init: Object subsystem initialized
 Init: Detected: Microsoft Windows NT 6.2 (Build: 9200)
 Log: Enabling Data Executing Prevention
 Init: Computer: VINCEPC
-Init: User: vince
+Init: User: Vince
 Init: Memory total: Phys=4194303K Pagef=4194303K Virt=4194176K
 Init: Working set: 32000 / 159000
 Init: CPU Page size=4096, Processors=12
 Init: CPU Detected: AMD Ryzen 5 5600X 6-Core Processor              (AuthenticAMD)
 Init: CPU Features: INVARIANT_TSC CMov FPU RDTSC PAE MMX SSE SSE2 SSE3 SSSE3 SSE4_1 SSE4_2 AVX AVX2
-Init: Timer Frequency=4199.998740 MHz - Timing Source = RDTSC
+Init: Timer Frequency=4200.000075 MHz - Timing Source = RDTSC
 Log: Detecting D3DDrv.D3DRenderDevice
 Log: Bound to D3DDrv.dll
 Init: DirectDraw drivers detected:
@@ -50,4 +50,4 @@ Log: Garbage: objects: 241->0; refs: 0
 Exit: Object subsystem successfully closed.
 Exit: Exiting.
 Exit: Allocation checking disabled
-Log: Log file closed, 02/28/24 21:40:59
+Log: Log file closed, 06/07/24 16:05:44

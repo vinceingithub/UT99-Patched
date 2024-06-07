@@ -12,10 +12,11 @@ This is a pre-patched version of the Steam release Unreal Tournament 1999 for Ag
 
 CHANGES:
 + Removed bloat items
-+ Changed video renderer to DirectX9
++ Changed video renderer to OpenGL
 + Changed movement controls to standard WASD
 + Added and configured the ChaosUT mod
 + Added and configured the UltraGoreSSE mod
++ Added and configured the NaliWeapons mod
 + Cached all maps and textures used on the Agora Road's Unreal Tournament server
 + Patched game with years worth of various bug fixes and performance enhancements
 
