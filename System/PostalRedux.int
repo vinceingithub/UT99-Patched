@@ -1,5 +1,0 @@
-[Public]
-Object=(Name=PostalRedux.PostalDudeBot,Class=Class,MetaClass=BotPack.Bot,Description="PostalDude")
-Object=(Name=PostalRedux.PostalDude,Class=Class,MetaClass=BotPack.TournamentPlayer,Description="PostalDude")
-Object=(Name=PostalRedux.PostalDude,Class=Texture,Description="PostalDude")
-
