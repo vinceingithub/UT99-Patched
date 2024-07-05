@@ -14,6 +14,7 @@ CHANGES:
 + Removed bloat items
 + Changed video renderer to OpenGL
 + Changed movement controls to standard WASD
++ Added the PostalDude player model
 + Added and configured the ChaosUT mod
 + Added and configured the UltraGoreSSE mod
 + Added and configured the NaliWeapons mod
