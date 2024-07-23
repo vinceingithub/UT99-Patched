@@ -8,7 +8,7 @@
 
 Thank you for choosing Vince's Canned Unreal Tournament!
 
-This is a pre-patched version of the Steam release Unreal Tournament 1999 for Agora Road frag nights.
+This is a pre-patched version of the Steam release of Unreal Tournament 1999 for Agora Road frag nights.
 
 CHANGES:
 + Removed bloat items
