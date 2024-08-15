@@ -1,6 +1,0 @@
-[Public]
-Object=(Name=ChaosUTMiscMuts.SwordMelee,Class=Class,MetaClass=Engine.Mutator,Description="ChaosUT - Sword Melee,Everyone's Melee weapon is a ChaosUT Bastard Sword");
-Object=(Name=ChaosUTMiscMuts.grappleonly,Class=Class,MetaClass=Engine.Mutator,Description="ChaosUT - Grapple Only, All players will have the CUT Grapple item in their inventory");
-Object=(Name=ChaosUTMiscMuts.NoHealth,Class=Class,MetaClass=Engine.Mutator,Description="ChaosUT - NoHealth,All health items (healthvial, superhealth, medbox) are removed");
-Object=(Name=ChaosUTMiscMuts.ChaosUTMutatorArena,Class=Class,MetaClass=Engine.Mutator,Description="ChaosUT Arena Mutator,All weapons and ammo are replaced with the ones that are selected in the ChaosUT Config Setup under Arena Mutator Selection.");
-

@@ -1,7 +1,0 @@
-[public]
-Object=(Name=SoldierSkins_Mi.blkt1,Class=Texture,Description="Larry Hagman")
-Object=(Name=SoldierSkins_Mi.blkt2,Class=Texture)
-Object=(Name=SoldierSkins_Mi.blkt3,Class=Texture)
-Object=(Name=SoldierSkins_Mi.blkt4,Class=Texture)
-Object=(Name=SoldierSkins_Mi.blkt4Malcom,Class=Texture,Description="Larry Hagman")
-Object=(Name=SoldierSkins_Mi.blkt5Malcom,Class=Texture)

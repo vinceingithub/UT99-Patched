@@ -1,3 +1,0 @@
-[Public]
-Object=(Name=gmanfbi.gmanfbi,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="gmanfbi")
-Object=(Name=gmanfbi.gmanfbibot,Class=Class,MetaClass=BotPack.Bot,Description="gmanfbi")

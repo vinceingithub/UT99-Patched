@@ -1,5 +1,0 @@
-[Public]
-Object=(Name=SkeletalChars.WarBoss,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="WarBoss")
-Object=(Name=SkeletalChars.XanMk2,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Xan Mark II")
-Object=(Name=SkeletalChars.WarBossBot,Class=Class,MetaClass=Botpack.Bot,Description="WarBoss")
-Object=(Name=SkeletalChars.XanMk2Bot,Class=Class,MetaClass=Botpack.Bot,Description="Xan Mark II")

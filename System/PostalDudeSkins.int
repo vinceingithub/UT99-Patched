@@ -1,7 +1,0 @@
-[public]
-Object=(Name=PostalDudeSkins.Dude0,Class=Texture,Description="PostalDude")
-Object=(Name=PostalDudeSkins.Dude1t_0,Class=Texture)
-Object=(Name=PostalDudeSkins.Dude1t_1,Class=Texture)
-Object=(Name=PostalDudeSkins.Dude1t_2,Class=Texture)
-Object=(Name=PostalDudeSkins.Dude1t_3,Class=Texture)
-Object=(Name=PostalDudeSkins.Dude2Face,Class=Texture,Description="PostalDude")

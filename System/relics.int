@@ -1,7 +1,0 @@
-[Public]
-Object=(Name=Relics.RelicRegen,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Regen,A magical relic that imparts the ability to gain 10 health every second.")
-Object=(Name=Relics.RelicDefense,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Defense,A magical relic that prevents 60% of all damage sustained by the user.")
-Object=(Name=Relics.RelicSpeed,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Speed,A magical relic that imparts superhuman speed and reflexes.")
-Object=(Name=Relics.RelicStrength,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Strength,A magical relic that imparts a great increase in damage.")
-Object=(Name=Relics.RelicRedemption,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Redemption,This mysterious artifact will bind to your soul, saving you from death.")
-Object=(Name=Relics.RelicDeath,Class=Class,MetaClass=Engine.Mutator,Description="Relic: Vengeance,This relic will punish those who wish to slay you.")

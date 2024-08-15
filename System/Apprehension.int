@@ -1,3 +1,0 @@
-[Public]
-Object=(Name=Apprehension.AppGame,Class=Class,MetaClass=Botpack.TournamentGameInfo)
-Preferences=(Caption="Apprehension",Parent="Game Types",Class=Apprehension.AppGame,Immediate=True)
