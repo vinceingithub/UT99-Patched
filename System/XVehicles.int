@@ -1,0 +1,26 @@
+[Public]
+Object=(Name=FixGun.FixGunMutator,Class=Class,MetaClass=Engine.Mutator,Description="FixGunMutator,Spawn FixGun inside any XVehicle")
+Object=(Name=XVehicles.XVehiclesHUD,Class=Class,MetaClass=Engine.Mutator,Description="XVehiclesHUD,XVehciles HUD helper")
+Object=(Name=XVehicles.XVehiclesMH,Class=Class,MetaClass=Engine.Mutator,Description="XVehiclesMH,MH rules for XVehicles")
+Object=(Name=XVehicles.XVehiclesCTF,Class=Class,MetaClass=Engine.Mutator,Description="XVehiclesCTF,CTF rules for XVehicles")
+Object=(Name=XVehicles.XVehiclesSummon,Class=Class,MetaClass=Engine.Mutator,Description="XVehiclesSummon,Summon XVehicles at any place for debug")
+Object=(Name=XChopVeh.XHeli2Raptor,Class=Class,MetaClass=Engine.Mutator,Description="XHeli2Raptor,Replace CybotHelico with Raptor")
+Object=(Name=XXMP.XJeepTDX2Grinder,Class=Class,MetaClass=Engine.Mutator,Description="XJeepTDX2Grinder,Replace JeepTDX with Grinder")
+Object=(Name=XTreadVeh.XTankGKOne2Goliath,Class=Class,MetaClass=Engine.Mutator,Description="XTankGKOne2Goliath,Replace Tank GK-1 with Goliath")
+Object=(Name=XTreadVeh.XTankGKOne2Juggernaut,Class=Class,MetaClass=Engine.Mutator,Description="XTankGKOne2Juggernaut,Replace Tank GK-1 with Juggernaut")
+Object=(Name=XChopVeh.XHeli2Banshee,Class=Class,MetaClass=Engine.Mutator,Description="XHeli2Banshee,Replace CybotHelico with Banshee")
+Object=(Name=XTreadVeh.XTankGKOne2TankScorpion,Class=Class,MetaClass=Engine.Mutator,Description="XTankGKOne2TankScorpion,Replace Tank GK-1 with Tank Scorpion")
+Object=(Name=UT3Rewards.UT3Rewards,Class=Class,MetaClass=Engine.Mutator,Description="UT3Rewards,UT3 Announcer Rewards for XVehicles")
+Object=(Name=XXMP.XTankGKOne2Badger,Class=Class,MetaClass=Engine.Mutator,Description="XTankGKOne2Badger,Replace Tank GK-1 with Badger")
+Object=(Name=XXMP.XTankGKOne2HoverBadger,Class=Class,MetaClass=Engine.Mutator,Description="XTankGKOne2HoverBadger,Replace Tank GK-1 with HoverBadger")
+Object=(Name=XTreadVeh.XTankGKOne2IonTank,Class=Class,MetaClass=Engine.Mutator,Description="XTankGKOne2IonTank,Replace Tank GK-1 with Ion Tank")
+Object=(Name=XChopVeh.XHeli2LinkCraft,Class=Class,MetaClass=Engine.Mutator,Description="XHeli2LinkCraft,Replace CybotHelico with LinkCraft")
+
+Object=(Name=XVehicles.VehicleCTFGame,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Preferences=(Caption="Vehicle Capture the Flag",Parent="Game Types",Class=XVehicles.VehicleCTFGame,Immediate=True)
+
+Object=(Name=XVMH.VehicleMonsterHunt,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Preferences=(Caption="Vehicle MonsterHunt",Parent="Game Types",Class=XVMH.VehicleMonsterHunt,Immediate=True)
+
+Object=(Name=XGreed.Greed,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Preferences=(Caption="Greed",Parent="Game Types",Class=XGreed.Greed,Immediate=True)

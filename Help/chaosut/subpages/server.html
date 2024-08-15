@@ -1,0 +1,329 @@
+<html>
+<head>
+<title>ChaosUT HTML Documentation - Server Guide</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+<body bgcolor="#000000" text="#CCCCCC" link="#48698A" vlink="#48698A" alink="#48698A">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+   <td width="20%" height="190"> 
+      <p align="center"> 
+            <img border="0" src="../pics/chaosutlogo.jpg" width="170" height="169"><br>
+       <span style="letter-spacing: 1pt"><font face="Courier New" size="3">Server
+       </font></span>
+            <font face="Courier New" size="3"><span style="letter-spacing: 1pt">Setup</span></font>
+      </p>
+    </td>
+    <td nowrap>
+      <p align="center"><font face="Arial"><a href="../startme.html"><font size="3">main</a>&nbsp;
+      | &nbsp;<a href="intro.html">introduction</a>&nbsp;
+      |&nbsp; <a href="install.html">installation</a>&nbsp; |&nbsp; <a href="configs.html">configs</a>&nbsp; |&nbsp; <a href="start.html">starting
+      chaos</a>&nbsp; |<br>
+      |&nbsp; <a href="weapons.html">the
+      weapons</a>&nbsp;
+       |&nbsp; <a href="features.html">features</a>&nbsp; |&nbsp; <a href="koth.html">koth</a>&nbsp; |&nbsp;
+      <font color="#999999">server </font></font></font><font size="3"><font color="#999999" face="Arial">setup</font>&nbsp; |&nbsp;
+      <a href="credits.html"><font face="Arial">credits</font></a>&nbsp; |</font></p>
+    </td>
+      <td width="25%" height="190"> 
+      <p align="center"> 
+      <font face="Verdana"> 
+      <img border="0" src="../pics/proxy.jpg" width="149" height="150">
+      </font>
+      </p>
+    </td>
+  </tr>
+</table>
+<p align="center"><font face="Verdana">&nbsp; **<font color="#F5FF60"> Start a
+ChaosUT server in 2 easy steps! </font>**
+</font></p>
+<p align="center"><font face="Verdana"> <font color="#00FFFF">Step 1)</font> Run the
+provided CUT server .UMOD&nbsp;</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<font face="Verdana"><font color="#00FFFF">Step
+2)</font> Start a multiplayer game in any CUT gametype&nbsp;</font></p>
+<p align="center"><font face="Verdana" size="2">It can be as easy as that! The
+following info is provided just
+for more detail, so you can tweak default settings, etc.&nbsp;</font></p>
+<table width="90%" border="2" cellspacing="2" cellpadding="2" align="center" bordercolorlight="#48698A" bordercolordark="#26384A">
+  <tr> 
+    <td colspan="2"> 
+      <p><font face="Verdana" size="2"><b>Edit the UnrealTournament.ini:&nbsp; </b>(
+      <font color="#F5FF60">NOTE:</font><font color="#FF0000"> </font> Simply running the provided ChaosUT Server
+      .UMOD eliminates this step !! ) 
+        <br>
+        &nbsp;&nbsp;</font></p>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2" valign="top"> 
+      <p align="left"><font face="Verdana" size="2">First of all, go to
+        your <b><span style="letter-spacing: 1pt"><font color="#6E96BE">UnrealTournament/System/UnrealTournament.ini</font></span></b> file,
+        and under the<font color="#FFCC66">  
+      </font> 
+ <b><span style="letter-spacing: 1pt"><font color="#6E96BE">[Engine.GameEngine]</font></span></b> 
+      <font color="#FFCC66">  
+      </font> 
+        section,&nbsp;make sure you have the following lines:</font>
+      <p>
+       <span style="LETTER-SPACING: 1pt"><font face="Verdana" size="2">ServerPackages=UTChaosMap<br>
+      ServerPackages=ChaosUTRHUD<br>
+      ServerPackages=ChaosUT<br>
+       ServerPackages=ChaosUTMiscMuts<br>
+       ServerPackages=Chaos</font></span><font face="Verdana" size="2"><span style="letter-spacing: 1pt">Games</span></font></p>
+
+
+      
+
+
+<p><font face="Verdana" size="2"><font color="#FFCC66"><b>IMPORTANT !!</b>&nbsp;</font>&nbsp;
+You <u>must</u>  also make sure there are no blank spaces at the end of each line. UT
+doesn't like this.</font></p>
+    
+      <font face="Verdana" size="2">
+    
+The above lines are needed by UT when you run a server. If you do not have these, then the clients that connect will not be able to see any of the Chaos weapons or other
+items that Chaos has to offer. This is the #1 reason why people have trouble getting a CUT server up and running. Also keep in mind that the clients will have to have
+      any other files you specify under the servers Engine.GameEngine setting.&nbsp;(
+      e.g. models, skins, mods )</font>
+  
+      </td>
+  </tr>
+</table>
+ 
+<blockquote>
+ 
+<blockquote>
+ 
+<p align="center"><font face="Verdana"><b> 
+    <br>
+    ** </b>You only need this next step if you want to change some of our default
+settings. **
+</font>
+  </p>
+ 
+<p align="center"><font face="Verdana">Go to the mods pull down menu and select Chaos
+Config. There are two areas a server admin might want to adjust, under the 'Game
+Settings' tab, and also the 'Turret Settings' tab.
+</font>
+  </p>
+</blockquote>
+  </blockquote>
+
+<div align="center">
+  <center> 
+
+<table width="90%" border="2" cellspacing="2" cellpadding="2" bordercolorlight="#48698A" bordercolordark="#26384A">
+  <tr> 
+    <td colspan="2"> 
+      <p><font face="Verdana"><b><font size="2">Game Settings :</font></b><font size="3"><br>
+        &nbsp;&nbsp;</font></font></p>
+    </td>
+  </tr>
+  <tr> 
+    <td rowspan="2" valign="middle"> 
+      <img border="0" src="../pics/gamesettings_menu.jpg" width="300" height="348">
+      </td>
+    <td width="99%" align="left" valign="top" rowspan="2">
+    <p><font color="#F5FF60" face="Verdana" size="2">Alternative HUD mode</font><font face="Verdana" size="2">
+    - Toggle this option if you have trouble with parts of the ChaosUT HUD not
+    showing up when used with other mods.&nbsp;Or if you have trouble with the
+    HUD's from other mods not showing up when you play them with ChaosUT.</font>
+    <p><font face="Verdana" size="2"><font color="#F5FF60">Respawn Protection</font> -
+    This provides you with temporary invulnerability when you respawn. This will help you avoid spawn campers and stand a chance to find a gun.&nbsp;
+    </font>
+    <p><font face="Verdana" size="2"><font color="#F5FF60">Duration</font> - This is the amount of time that the Respawn Protection
+    will last.</font>
+    <p><font face="Verdana" size="2"><font color="#F5FF60">Weapon Replacement Method</font> - This will allow you to modify the
+    way CUT weapons will appear in the game.&nbsp;</font>
+    <blockquote>
+    <p><font size="2" face="Verdana">You can chose the <b>Cycle Method, </b>where the Chaos Weapons will alternate with the normal weapons.</font>
+    <p><font size="2" face="Verdana">Or the <b>Replace method, </b>where some of the standard weapons are replaced with the Chaos weapons.</font>
+    </blockquote>
+    <p><font face="Verdana"><font size="2"><font color="#F5FF60">Use Sniper Dot</font><b><font color="#F5FF60"> </font></b> - Sniper dot is where you will get a dot that will show you were your aiming with the sniper rifle. Think of it as a laser sight.&nbsp;
+    </font>
+ </font></p>
+    <font size="2">
+      <font color="#F5FF60" face="Verdana">Use Grapple Hook</font>
+    <font face="Verdana"> - This will enable our famous grappling hook, allowing you to move about the map much easier.&nbsp;</font>
+    </font>
+    <p><font size="2"><font color="#F5FF60" face="Verdana">CTF Flag Drop on Grapple</font><font face="Verdana"> - This will cause
+    flag carriers to drop the flag if they try to use the grappling hook.&nbsp;</font>
+    </font>
+    <p><font size="2"><font color="#F5FF60" face="Verdana">Initial GravBelt Charge</font><font face="Verdana"> -
+    The number of seconds the GravBelt will last after you pick it up.&nbsp;&nbsp;</font></font></p>
+    </td>
+  </tr>
+ 
+</table>
+  </center>
+</div>
+<font size="3" face="Verdana">
+<br>
+<br>
+
+
+</font>
+
+
+<table width="90%" border="2" cellspacing="2" cellpadding="2" align="center" bordercolorlight="#48698A" bordercolordark="#26384A">
+  <tr> 
+    <td colspan="2"> 
+      <p><b><font face="Verdana" size="2">Turret Settings :</font></b><font size="3" face="Verdana"><br>
+        &nbsp;&nbsp;</font></p>
+    </td>
+  </tr>
+  <tr> 
+    <td rowspan="2" valign="middle"> 
+      <div align="center">
+      <img border="0" src="../pics/turretsettings_menu.jpg" width="300" height="348">
+	  </div>
+         </td>
+    <td width="99%" align="left" valign="middle" rowspan="2"><font face="Verdana" size="2"><font color="#F5FF60">Empty Turret Duration (min 30)</font> -
+      The amount of time a turret will remain after it runs out of ammo. If it
+      has not been reloaded before time is up, it will self destruct.&nbsp;</font>
+      <p><font face="Verdana" size="2"><font color="#F5FF60">Turret Starting Energy Ammo</font> - This is amount of energy the Turret has when it is
+      beamed in.&nbsp;</font>
+      <p><font face="Verdana" size="2"><font color="#F5FF60">Turret Max Energy Ammo</font> - This is the maximum amount of energy ammo a turret can have.&nbsp;</font>
+      <p><font face="Verdana" size="2"><font color="#F5FF60">Turret Starting Rocket Ammo</font> - This is amount of Rockets the Turret has when it is
+      beamed in.&nbsp;</font>
+      <p><font face="Verdana" size="2"><font color="#F5FF60">Turret Max Rocket Ammo</font> - This is the maximum amount of rocket ammo a turret can have.&nbsp;</font>
+      <p><font face="Verdana" size="2"><font color="#F5FF60">Max Active Turrets</font> - This is the
+      maximum number of turrets allowed to be activated at the same time,
+      regardless of who owns them.&nbsp;</font> 
+
+      </td>
+  </tr>
+ 
+</table>
+<p align="center"><font face="Verdana">
+<font size="3">
+<br>
+** </font>That's it! The rules and map rotations are set up the same way as any
+standard UT match.<br>
+Time to start the game!
+**
+
+
+</font></p>
+
+
+<p align="center"><font color="#F5FF60" face="Verdana">NOTE: </font><font face="Verdana">The preferred method for running a Chaos server is by using the CUT Gametypes
+!&nbsp;<br>
+This method will make your server visible on the CUT Server Tab !!&nbsp;</font></p>
+
+
+<table width="90%" border="2" cellspacing="2" cellpadding="2" align="center" bordercolorlight="#48698A" bordercolordark="#26384A">
+  <tr> 
+    <td colspan="2"> 
+      <p><font face="Verdana"><b><font size="2">Starting Multiplayer ChaosUT: with the </font></b><font size="2"><b>gametypes
+      !</b></font><br>
+      </font></p>
+    </td>
+  </tr>
+  <tr> 
+    <td valign="middle" colspan="2"> 
+      <font face="Verdana" size="2"><font color="#FFFF00">NOTE: </font>There are
+      a few features in CUT which are <font color="#FF0000"> <b>only</b>
+      available in the CUT Game types!!</font>&nbsp; Examples would be custom
+      CUT team icons, and a new HUD message, which identifies turrets as friend
+      or foe.&nbsp;</font>
+    </td>
+  </tr> 
+  <tr> 
+    <td valign="middle"> 
+      <img border="0" src="../pics/server_startmenu.jpg" width="519" height="269">
+    </td>
+    <td width="99%" align="left" valign="middle"><font face="Verdana" size="2">Start
+      UT as always, and then you simply use the &quot;Game Type:&quot; menu to
+      choose one of the provided CUT gametypes.&nbsp;&nbsp;</font>
+      <p><font face="Verdana" size="2">When using this method, you do not need
+      to select the ChaosUT main mutator. All of the weapons and features of
+      Chaos are loaded automatically when you use the Chaos gametypes.&nbsp;</font>
+      </p>
+      <p><font face="Verdana" size="2">However, you may still choose to use some
+      of the mini mutators. For example, you might use the CUT gametype, and
+      still choose to use the CUT:SwordMelee mutator.&nbsp;</font>
+      </p>
+    </td>
+  </tr> 
+</table>
+
+
+<p align="center">&nbsp;</p>
+
+
+<table width="90%" border="2" cellspacing="2" cellpadding="2" align="center" bordercolorlight="#48698A" bordercolordark="#26384A">
+  <tr> 
+    <td colspan="2"> 
+      <p><font face="Verdana" size="2"><b>Command Lines:</b> 
+        <br>
+        &nbsp;&nbsp;</font></p>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2" valign="top"> 
+      <p align="left"><font face="Verdana" size="2">For those wishing to start a
+      dedicated server from a command line, we offer these examples:</font><p align="left"><font face="Verdana" size="2">For
+      DM:</font>
+      <blockquote>
+        <p align="left"><font face="Verdana" size="2"><span class="postbody">ucc server </span>DM-CUT_Jailhouse<span class="postbody">.unr?Game=Chaosgames.ChaosDMGame?Listen
+        -server log=server.log</span>
+        </font>
+      </blockquote>
+      <p align="left"><font size="2" face="Verdana">For CTF:&nbsp;</font>
+      <blockquote>
+        <p align="left"><font face="Verdana" size="2">ucc server CTF-CUT_Horus.unr?Game=Chaosgames.ChaosCTFGame?Listen
+        -server log=server.log</font></p>
+        <hr width="50%" noshade size="1">
+      </blockquote>
+  
+        <p align="left"><span class="postbody"><font face="Verdana" size="2">Sample
+        bat file to start a koth server:</font></span></p>
+      <blockquote>
+        <p align="left"><span class="postbody"><font face="Verdana" size="2">c:<br>
+        cd \unrealtournament\system<br>
+        ucc server koth_alpha_pyramid.unr?Game=Chaosgames.ChaosKOTH?Listen
+        -server log=server.log</font></span></p>
+      </blockquote>
+  
+        <p align="left"><span class="postbody"><font face="Verdana" size="2">and
+        for KOTH team game&nbsp;</font></span></p>
+      <blockquote>
+        <p align="left"><span class="postbody"><font face="Verdana" size="2"><br>
+        c:<br>
+        cd \unrealtournament\system<br>
+        ucc server koth_outpost_arena.unr?Game=Chaosgames.ChaosTeamKOTH?Listen
+        -server log=server.log</font></span></p>
+      </blockquote>
+  
+      </td>
+  </tr>
+</table>
+ 
+<p align="center">&nbsp;</p>
+
+
+<table width="90%" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr> 
+    <td>
+      <p align="center"><font face="Arial"><a href="../startme.html"><font size="3">main</font></a><font size="3">&nbsp;
+      | &nbsp;<a href="intro.html">introduction</a>&nbsp;
+      |&nbsp; <a href="install.html">installation</a>&nbsp; |&nbsp; <a href="configs.html">configs</a>&nbsp; |&nbsp; <a href="start.html">starting
+      chaos</a>&nbsp; |<br>
+      |&nbsp; <a href="weapons.html">the
+      weapons</a>&nbsp;
+       |&nbsp; <a href="features.html">features</a>&nbsp; |&nbsp; <a href="koth.html">koth</a>&nbsp; |&nbsp;
+      <font color="#999999">server </font></font></font><font size="3"><font color="#999999" face="Arial">setup</font>&nbsp; |&nbsp;
+      <a href="credits.html"><font face="Arial">credits</font></a>&nbsp; |</font></p>
+    </td>
+  </tr>
+</table>
+<b> 
+<p align="right"><font size="3" face="Verdana"> 
+  <br>
+ </font><font face="Verdana, Arial, Helvetica, sans-serif" color="#999999" size="1">c'2002
+Chaotic Dreams</font></p>
+</b> 
+<p align="right">&nbsp;</p>
+</body>
+</html>

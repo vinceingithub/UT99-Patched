@@ -1,0 +1,4 @@
+[Public]
+Object=(Name=Chreks.ChrekBot,Class=Class,MetaClass=BotPack.Bot,Description="Chrek Army")
+Object=(Name=Chreks.Chrek,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Chrek Army")
+

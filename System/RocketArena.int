@@ -1,0 +1,12 @@
+[Public]
+Object=(Name=RocketArena.RocketArenaGame,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=RocketArena.AnyMapRocketArenaGame,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Object=(Name=RocketArena.ExtraRABindings,Class=Class,MetaClass=UTMenu.UTExtraKeyBindings)
+Object=(Name=RocketArena.ArenaGame_Multi,Class=Class,MetaClass=RocketArena.ArenaGame)
+Object=(Name=RocketArena.ArenaGame_Clan,Class=Class,MetaClass=RocketArena.ArenaGame)
+Object=(Name=RocketArena.RABrowserWindow,Class=Class,MetaClass=UTBrowser.UTBrowserServerListWindow)
+Object=(Name=RocketArena.RABrowserWindowAll,Class=Class,MetaClass=UTBrowser.UTBrowserServerListWindow)
+Object=(Name=RocketArena.RADefaultMapList,Class=Class,MetaClass=RocketArena.RAMapList,Description="Default Maps")
+Object=(Name=RocketArena.RAVoiceMale,Class=Class,MetaClass=RocketArena.RAVoice,Description="Default Male Voice")
+Object=(Name=RocketArena.RAVoiceFemale,Class=Class,MetaClass=RocketArena.RAVoice,Description="Default Female Voice")
+Preferences=(Caption="RocketArena",Parent="Game Types",Class=RocketArena.RocketArenaGam,Immediate=True)

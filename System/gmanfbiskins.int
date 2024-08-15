@@ -1,0 +1,11 @@
+[public]
+Object=(Name=gmanfbiSkins.gman2,Class=Texture)
+Object=(Name=gmanfbiSkins.gman2gmanfbi,Class=Texture,Description="gmanfbi")
+Object=(Name=gmanfbiSkins.gman1,Class=Texture,Description="gmanfbi")
+Object=(Name=gmanfbiSkins.gman5gmanfbi,Class=Texture)
+Object=(Name=gmanfbiSkins.gman1T_0,Class=Texture)
+Object=(Name=gmanfbiSkins.gman1T_1,Class=Texture)
+Object=(Name=gmanfbiSkins.gman1T_2,Class=Texture)
+Object=(Name=gmanfbiSkins.gman1T_3,Class=Texture)
+
+

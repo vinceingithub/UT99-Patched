@@ -1,0 +1,39 @@
+﻿Log: Log file open, 03/01/24 22:44:51
+Init: Name subsystem initialized
+Init: Version: 469
+Init: Revision: d (Release)
+Init: Compiled: Dec  9 2023 12:11:13
+Init: Command line: install CUTDesktop.umod
+Init: Base directory: D:\Downloads\Unreal Tournament 1999 GOTY\System\
+Init: Character set: Unicode
+Log: Bound to Core.dll
+Log: Bound to Window.dll
+Init: Object subsystem initialized
+Init: Detected: Microsoft Windows NT 6.2 (Build: 9200)
+Log: Enabling Data Executing Prevention
+Init: Computer: VINCEPC
+Init: User: vince
+Init: Memory total: Phys=4194303K Pagef=4194303K Virt=4194176K
+Init: Working set: 32000 / 159000
+Init: CPU Page size=4096, Processors=12
+Init: CPU Detected: AMD Ryzen 5 5600X 6-Core Processor              (AuthenticAMD)
+Init: CPU Features: INVARIANT_TSC CMov FPU RDTSC PAE MMX SSE SSE2 SSE3 SSSE3 SSE4_1 SSE4_2 AVX AVX2
+Init: Timer Frequency=4199.998110 MHz - Timing Source = RDTSC
+Init: Language 10, Sublanguage 21
+Log: Copying ..\Maps\CUT-Logo-Map.unr to D:\Downloads\Unreal Tournament 1999 GOTY\Maps\CUT-Logo-Map.unr
+Log: Copying ..\Textures\CUT_Desktop.utx to D:\Downloads\Unreal Tournament 1999 GOTY\Textures\CUT_Desktop.utx
+Log: Copying ..\Help\ChaosUT_Desktop.txt to D:\Downloads\Unreal Tournament 1999 GOTY\Help\ChaosUT_Desktop.txt
+Log: Copying ..\Help\ChaosUT_Desktop.bmp to D:\Downloads\Unreal Tournament 1999 GOTY\Help\ChaosUT_Desktop.bmp
+Log: Copying ..\Help\ChaosUT_Beta4_Desktop.bmp to D:\Downloads\Unreal Tournament 1999 GOTY\Help\ChaosUT_Beta4_Desktop.bmp
+DevSave: Moving 'D:\Downloads\Unreal Tournament 1999 GOTY\System\Manifest.ini.tmp' to 'D:\Downloads\Unreal Tournament 1999 GOTY\System\Manifest.ini'
+DevSave: Moving 'D:\Downloads\Unreal Tournament 1999 GOTY\System\UnrealTournament.ini.tmp' to 'D:\Downloads\Unreal Tournament 1999 GOTY\System\UnrealTournament.ini'
+Exit: Preparing to exit.
+Log: Collecting garbage
+Log: Purging garbage
+Log: Unbound to Core.dll
+Log: Unbound to Window.dll
+Log: Garbage: objects: 137->0; refs: 0
+Exit: Object subsystem successfully closed.
+Exit: Exiting.
+Exit: Allocation checking disabled
+Log: Log file closed, 03/01/24 22:44:56

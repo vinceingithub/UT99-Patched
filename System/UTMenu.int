@@ -1,0 +1,10 @@
+[Public]
+Object=(Name=UTMenu.UTConsole,Class=Class,MetaClass=Engine.Console)
+
+[UTConsole]
+ClassCaption=Unreal Tournament Console
+
+[OnlineServices]
+MPlayer=-
+Heat=-
+WON=-

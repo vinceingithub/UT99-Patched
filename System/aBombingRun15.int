@@ -1,0 +1,3 @@
+[Public]
+Object=(Name=aBombingRun15.aBombingRun,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Preferences=(Caption="Bombing Run",Parent="Game Types",Class=aBombingRun15.aBombingRun,Immediate=True)
