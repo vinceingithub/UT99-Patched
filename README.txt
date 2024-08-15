@@ -18,6 +18,9 @@ CHANGES:
 + Added and configured the ChaosUT mod
 + Added and configured the UltraGoreSSE mod
 + Added and configured the NaliWeapons mod
++ Added and configured the Bombing Run gamemode
++ Added and configured the Rocket Arena gamemode
++ Added and configured the XVehicles mod
 + Cached all maps and textures used on the Agora Road's Unreal Tournament server
 + Patched game with years worth of various bug fixes and performance enhancements
 
