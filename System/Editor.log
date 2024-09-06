@@ -1,0 +1,311 @@
+﻿Log: Log file open, 08/31/24 17:51:05
+Init: Name subsystem initialized
+Init: Version: 469
+Init: Revision: d (Release)
+Init: Compiled: Dec  9 2023 12:11:13
+Init: Command line: 
+Init: Base directory: D:\Projects\Vince's Canned Unreal Tournament\System\
+Init: Character set: Unicode
+Log: Bound to Editor.dll
+Log: Bound to Core.dll
+Log: Bound to Engine.dll
+Log: Bound to Window.dll
+Log: Bound to Render.dll
+Init: Object subsystem initialized
+Init: Detected: Microsoft Windows NT 6.2 (Build: 9200)
+Log: Enabling Data Executing Prevention
+Init: Computer: VINCEPC
+Init: User: Vince
+Init: Memory total: Phys=4194303K Pagef=4194303K Virt=4194176K
+Init: Working set: 32000 / 159000
+Init: CPU Page size=4096, Processors=12
+Init: CPU Detected: AMD Ryzen 5 5600X 6-Core Processor              (AuthenticAMD)
+Init: CPU Features: INVARIANT_TSC CMov FPU RDTSC PAE MMX SSE SSE2 SSE3 SSSE3 SSE4_1 SSE4_2 AVX AVX2
+Init: Timer Frequency=4199.991810 MHz - Timing Source = RDTSC
+Init: Unreal engine initialized
+Log: Bound to Galaxy.dll
+Init: Galaxy is using WinMM
+Init: Galaxy initialized
+Init: Transaction tracking system initialized
+Init: Loading EditPackage Core...
+Init: Loading EditPackage Engine...
+Init: Loading EditPackage Editor...
+Init: Loading EditPackage UWindow...
+Init: Loading EditPackage Fire...
+Log: Bound to Fire.dll
+Init: Loading EditPackage IpDrv...
+Log: Bound to IpDrv.dll
+Init: Loading EditPackage UWeb...
+Log: Bound to UWeb.dll
+Init: Loading EditPackage UBrowser...
+Init: Loading EditPackage UnrealShare...
+Init: Loading EditPackage UnrealI...
+Init: Loading EditPackage UMenu...
+Init: Loading EditPackage IpServer...
+Init: Loading EditPackage Botpack...
+Init: Loading EditPackage UTServerAdmin...
+Init: Loading EditPackage UTMenu...
+Init: Loading EditPackage UTBrowser...
+Log: Bound to WinDrv.dll
+Init: Enhanced Pointer Precision Disabled
+Init: Initializing DirectDraw
+Init: DirectDraw drivers detected:
+Init:    display (Controlador de pantalla primaria)
+Init: DirectDraw: Enumerated Display Modes:
+Init: DirectDraw: Mode 640x480x32
+Init: DirectDraw: Mode 720x400x32
+Init: DirectDraw: Mode 720x480x32
+Init: DirectDraw: Mode 720x576x32
+Init: DirectDraw: Mode 800x600x32
+Init: DirectDraw: Mode 1024x768x32
+Init: DirectDraw: Mode 1128x634x32
+Init: DirectDraw: Mode 1280x720x32
+Init: DirectDraw: Mode 1280x960x32
+Init: DirectDraw: Mode 1280x1024x32
+Init: DirectDraw: Mode 1366x768x32
+Init: DirectDraw: Mode 1440x900x32
+Init: DirectDraw: Mode 1600x900x32
+Init: DirectDraw: Mode 1680x1050x32
+Init: DirectDraw: Mode 1760x990x32
+Init: DirectDraw: Mode 1920x1080x32
+Init: DirectDraw: Mode 640x480x16
+Init: DirectDraw: Mode 720x400x16
+Init: DirectDraw: Mode 720x480x16
+Init: DirectDraw: Mode 720x576x16
+Init: DirectDraw: Mode 800x600x16
+Init: DirectDraw: Mode 1024x768x16
+Init: DirectDraw: Mode 1128x634x16
+Init: DirectDraw: Mode 1280x720x16
+Init: DirectDraw: Mode 1280x960x16
+Init: DirectDraw: Mode 1280x1024x16
+Init: DirectDraw: Mode 1366x768x16
+Init: DirectDraw: Mode 1440x900x16
+Init: DirectDraw: Mode 1600x900x16
+Init: DirectDraw: Mode 1680x1050x16
+Init: DirectDraw: Mode 1760x990x16
+Init: DirectDraw: Mode 1920x1080x16
+Init: DirectDraw: Mode 640x480x8
+Init: DirectDraw: Mode 720x400x8
+Init: DirectDraw: Mode 720x480x8
+Init: DirectDraw: Mode 720x576x8
+Init: DirectDraw: Mode 800x600x8
+Init: DirectDraw: Mode 1024x768x8
+Init: DirectDraw: Mode 1128x634x8
+Init: DirectDraw: Mode 1280x720x8
+Init: DirectDraw: Mode 1280x960x8
+Init: DirectDraw: Mode 1280x1024x8
+Init: DirectDraw: Mode 1366x768x8
+Init: DirectDraw: Mode 1440x900x8
+Init: DirectDraw: Mode 1600x900x8
+Init: DirectDraw: Mode 1680x1050x8
+Init: DirectDraw: Mode 1760x990x8
+Init: DirectDraw: Mode 1920x1080x8
+Init: DirectDraw initialized successfully
+Init: RawHIDInput support is disabled in UnrealEd. Set EnableEditorRawHIDInput to true to enable support.
+Init: Initializing Mouse Input Handler: Win32 Cursor Input (Legacy: TRUE)
+Init: Client initialized
+Init: Lighting subsystem initialized
+Init: Rendering initialized
+Init: Constructing brush builder CubeBuilder
+Init: Constructing brush builder SheetBuilder
+Init: Constructing brush builder CylinderBuilder
+Init: Constructing brush builder ConeBuilder
+Init: Constructing brush builder TetrahedronBuilder
+Init: Constructing brush builder CurvedStairBuilder
+Init: Constructing brush builder SpiralStairBuilder
+Init: Constructing brush builder LinearStairBuilder
+Init: Constructing brush builder TerrainBuilder
+Init: Constructing brush builder VolumetricBuilder
+Init: Editor engine initialized
+Log: Startup time: 1.253871 seconds
+Log: Testing supported renderers for level Viewports
+Log: Testing renderer D3D11Drv.D3D11RenderDevice
+Init: Input system initialized for TestViewport
+Log: Opened viewport
+Warning: Failed to load D3D11Drv: Can't find file for package D3D11Drv..
+Warning: Failed to load "Class D3D11Drv.D3D11RenderDevice": Can't find file for package D3D11Drv..
+Warning: Can't find file for package D3D11Drv.
+Warning: Can't find file for package D3D11Drv.
+Log: Bound to SoftDrv.dll
+Log: Transient.WindowsClient0.TestViewport.SoftwareRenderDevice0 is a legacy render device.
+DevAudio: Galaxy SetViewport: TestViewport
+Log: This renderer does not work in UEd
+Log: Closed viewport
+DevAudio: Galaxy SetViewport: NULL
+Log: Testing renderer GlideDrv.GlideRenderDevice
+Init: Input system initialized for TestViewport
+Log: This renderer does not work in UEd
+Log: Testing renderer MeTaLDrv.MeTaLRenderDevice
+Init: Input system initialized for TestViewport
+Log: This renderer does not work in UEd
+Log: Testing renderer SGLDrv.SGLRenderDevice
+Init: Input system initialized for TestViewport
+Log: This renderer does not work in UEd
+Log: Testing renderer SDLGLDrv.SDLGLRenderDevice
+Init: Input system initialized for TestViewport
+Log: Opened viewport
+Warning: Failed to load SDLGLDrv: Can't find file for package SDLGLDrv..
+Warning: Failed to load "Class SDLGLDrv.SDLGLRenderDevice": Can't find file for package SDLGLDrv..
+Warning: Can't find file for package SDLGLDrv.
+Warning: Can't find file for package SDLGLDrv.
+Log: Transient.WindowsClient0.TestViewport.SoftwareRenderDevice1 is a legacy render device.
+DevAudio: Galaxy SetViewport: TestViewport
+Log: This renderer does not work in UEd
+Log: Closed viewport
+DevAudio: Galaxy SetViewport: NULL
+Log: Testing renderer SDLSoftDrv.SDLSoftwareRenderDevice
+Init: Input system initialized for TestViewport
+Log: Opened viewport
+Warning: Failed to load SDLSoftDrv: Can't find file for package SDLSoftDrv..
+Warning: Failed to load "Class SDLSoftDrv.SDLSoftwareRenderDevice": Can't find file for package SDLSoftDrv..
+Warning: Can't find file for package SDLSoftDrv.
+Warning: Can't find file for package SDLSoftDrv.
+Log: Transient.WindowsClient0.TestViewport.SoftwareRenderDevice2 is a legacy render device.
+DevAudio: Galaxy SetViewport: TestViewport
+Log: This renderer does not work in UEd
+Log: Closed viewport
+DevAudio: Galaxy SetViewport: NULL
+Log: Testing renderer XMesaGLDrv.XMesaGLRenderDevice
+Init: Input system initialized for TestViewport
+Log: Opened viewport
+Warning: Failed to load XMesaGLDrv: Can't find file for package XMesaGLDrv..
+Warning: Failed to load "Class XMesaGLDrv.XMesaGLRenderDevice": Can't find file for package XMesaGLDrv..
+Warning: Can't find file for package XMesaGLDrv.
+Warning: Can't find file for package XMesaGLDrv.
+Log: Transient.WindowsClient0.TestViewport.SoftwareRenderDevice3 is a legacy render device.
+DevAudio: Galaxy SetViewport: TestViewport
+Log: This renderer does not work in UEd
+Log: Closed viewport
+DevAudio: Galaxy SetViewport: NULL
+Init: Input system initialized for U2Viewport0
+Log: Opened viewport
+Log: Transient.WindowsClient0.U2Viewport0.SoftwareRenderDevice4 is a legacy render device.
+Init: Input system initialized for U2Viewport1
+Log: Opened viewport
+Log: Transient.WindowsClient0.U2Viewport1.SoftwareRenderDevice5 is a legacy render device.
+Init: Input system initialized for U2Viewport2
+Log: Opened viewport
+Log: Transient.WindowsClient0.U2Viewport2.SoftwareRenderDevice6 is a legacy render device.
+DevAudio: Galaxy SetViewport: U2Viewport2
+Init: Input system initialized for U2Viewport3
+Log: Opened viewport
+Log: Transient.WindowsClient0.U2Viewport3.SoftwareRenderDevice7 is a legacy render device.
+Init: Input system initialized for MeshBrowser
+Log: Opened viewport
+Log: Transient.WindowsClient0.MeshBrowser.SoftwareRenderDevice8 is a legacy render device.
+Init: Input system initialized for TextureBrowser
+Log: Opened viewport
+Log: Transient.WindowsClient0.TextureBrowser.SoftwareRenderDevice9 is a legacy render device.
+Log: WCodeFrame::OpenWindow - Creating Window - W: 384, H: 512
+Log: WCodeFrame::OnCreate - Moving Window - X: 157, Y: 205, W: 817, H: 780
+Log: New File, Existing Package (Package MyLevel, Package DMXV-Chicago)
+DevAudio: Galaxy SetViewport: U2Viewport2
+Log: Collecting garbage
+Log: Purging garbage
+Log: Unloading: Package WinDrv
+Log: Unloading: Package Render
+Log: Garbage: objects: 52037->52015; refs: 756809
+Log: Matched Viewport U2Viewport0
+Log: Matched Viewport U2Viewport1
+Log: Matched Viewport U2Viewport2
+Log: Matched Viewport U2Viewport3
+Log: Matched Viewport MeshBrowser
+Log: Matched Viewport TextureBrowser
+DevAudio: Galaxy SetViewport: U2Viewport2
+Log: Closed viewport
+Log: Closed viewport
+DevAudio: Galaxy SetViewport: NULL
+Log: Closed viewport
+Log: Closed viewport
+Log: Missing name
+Log: Closed viewport
+Log: Missing name
+Log: Closed viewport
+Log: Missing name
+Log: Missing name
+Log: appRequestExit(0)
+Exit: Preparing to exit.
+Log: Collecting garbage
+Log: Purging garbage
+Log: Unbound to Editor.dll
+Log: Unbound to Core.dll
+Log: Unbound to Engine.dll
+Log: Unbound to Window.dll
+Log: Unbound to Render.dll
+Log: Unloading: Package Editor
+Log: Unloading: Package Core
+Log: Unloading: Package Engine
+Exit: Editor shut down
+Log: Unbound to Galaxy.dll
+DevAudio: Galaxy SetViewport: NULL
+Exit: Galaxy shut down
+Exit: Transaction tracking system shut down
+Log: Unloading: Package UWindow
+Log: Unbound to Fire.dll
+Log: Unloading: Package Fire
+Log: Unbound to IpDrv.dll
+Log: Unloading: Package IpDrv
+Log: Unbound to UWeb.dll
+Log: Unloading: Package UWeb
+Log: Unloading: Package UBrowser
+Log: Unloading: Package UnrealShare
+Log: Unloading: Package UnrealI
+Log: Unloading: Package UMenu
+Log: Unloading: Package IpServer
+Log: Unloading: Package Botpack
+Log: Unloading: Package Female2Voice
+Log: Unloading: Package Male2Voice
+Log: Unloading: Package Female1Voice
+Log: Unloading: Package BossVoice
+Log: Unloading: Package Male1Voice
+Log: Unloading: Package Announcer
+Log: Unloading: Package UTServerAdmin
+Log: Unloading: Package UTMenu
+Log: Unloading: Package LadderSounds
+Log: Unloading: Package LadrArrow
+Log: Unloading: Package UTBrowser
+Log: Unbound to WinDrv.dll
+Log: DirectDraw End Mode
+Log: Flushing cache
+Exit: DirectDraw released
+Exit: Windows client shut down
+Exit: Lighting subsystem shut down
+Exit: Rendering shut down
+Log: Unbound to SoftDrv.dll
+Log: Unloading: Package MyLevel
+Log: Unloading: Package BigChainGun
+Log: Unloading: Package ApplesInfinity2nd
+Log: Unloading: Package UTtech1
+Log: Unloading: Package Detail
+Log: Unloading: Package Mac10
+Log: Unloading: Package Boomsniper
+Log: Unloading: Package BoomDarts
+Log: Unloading: Package XFX
+Log: Unloading: Package DecayedS
+Log: Unloading: Package Palettes
+Log: Unloading: Package GenFluid
+Log: Unloading: Package GenFX
+Log: Unloading: Package AmbModern
+Log: Unloading: Package BuniDuster2
+Log: Unloading: Package rain
+Log: Unloading: Package CherryBomb
+Log: Unloading: Package ApplesBlossoMatic2
+Log: Unloading: Package BinSlayer
+Log: Unloading: Package XTreadVeh
+Log: Unloading: Package XVehicles
+Log: Unloading: Package UFire
+Log: Unloading: Package XPaths
+Log: Unloading: Package XJumpPad
+Log: Unloading: Package USmoke
+Log: Unloading: Package UExplosionsSet01
+Log: Unloading: Package FixGun
+Log: Unloading: Package GreatFire2
+Log: Unloading: Package XFastWarShell
+Log: Unloading: Package UExplEffects01
+Log: Unloading: Package XWheelVeh
+Log: Unloading: Package blank
+Log: Garbage: objects: 51985->0; refs: 0
+Exit: Object subsystem successfully closed.
+Exit: Exiting.
+Exit: Allocation checking disabled
+Log: Log file closed, 08/31/24 17:53:36
