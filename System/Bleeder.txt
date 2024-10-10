@@ -1,0 +1,5 @@
+Bleeder Mutator for UnrealTournament (retail build).
+written by Martin "Pfhoenix" Actor (pfhoenix@yahoo.com)
+
+This mutator makes players bleed from where they are hit. The blood will spurt depending on the amount of damage done. While most common hits will leave you bleeding for only a short time, good hits will leave you spurting blood permanently until someone kills you, making you easier to pick out and track.
+Enjoy!

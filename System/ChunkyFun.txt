@@ -1,0 +1,5 @@
+ChunkyFun Mutator for UnrealTournament (retail build).
+written by Martin "Pfhoenix" Actor (pfhoenix@yahoo.com)
+
+When players are hit for enough damage, chunks fly around, giving a good general view of carnage.
+Enjoy!

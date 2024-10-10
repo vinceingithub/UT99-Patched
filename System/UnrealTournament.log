@@ -1,10 +1,10 @@
-﻿Log: Log file open, 06/07/24 16:05:33
+﻿Log: Log file open, 09/22/24 21:15:04
 Init: Name subsystem initialized
 Init: Version: 469
 Init: Revision: d (Release)
 Init: Compiled: Dec  9 2023 12:11:13
 Init: Command line: 
-Init: Base directory: D:\Downloads\Vince's Canned Unreal Tournament\System\
+Init: Base directory: D:\Projects\Vince's Canned Unreal Tournament\System\
 Init: Character set: Unicode
 Log: Bound to Engine.dll
 Log: Bound to Core.dll
@@ -19,7 +19,7 @@ Init: Working set: 32000 / 159000
 Init: CPU Page size=4096, Processors=12
 Init: CPU Detected: AMD Ryzen 5 5600X 6-Core Processor              (AuthenticAMD)
 Init: CPU Features: INVARIANT_TSC CMov FPU RDTSC PAE MMX SSE SSE2 SSE3 SSSE3 SSE4_1 SSE4_2 AVX AVX2
-Init: Timer Frequency=4200.001050 MHz - Timing Source = RDTSC
+Init: Timer Frequency=4199.997240 MHz - Timing Source = RDTSC
 Init: Unreal engine initialized
 Log: Bound to WinDrv.dll
 Init: Enhanced Pointer Precision Disabled
@@ -43,6 +43,38 @@ Init: DirectDraw: Mode 1600x900x32
 Init: DirectDraw: Mode 1680x1050x32
 Init: DirectDraw: Mode 1760x990x32
 Init: DirectDraw: Mode 1920x1080x32
+Init: DirectDraw: Mode 640x480x16
+Init: DirectDraw: Mode 720x400x16
+Init: DirectDraw: Mode 720x480x16
+Init: DirectDraw: Mode 720x576x16
+Init: DirectDraw: Mode 800x600x16
+Init: DirectDraw: Mode 1024x768x16
+Init: DirectDraw: Mode 1128x634x16
+Init: DirectDraw: Mode 1280x720x16
+Init: DirectDraw: Mode 1280x960x16
+Init: DirectDraw: Mode 1280x1024x16
+Init: DirectDraw: Mode 1366x768x16
+Init: DirectDraw: Mode 1440x900x16
+Init: DirectDraw: Mode 1600x900x16
+Init: DirectDraw: Mode 1680x1050x16
+Init: DirectDraw: Mode 1760x990x16
+Init: DirectDraw: Mode 1920x1080x16
+Init: DirectDraw: Mode 640x480x8
+Init: DirectDraw: Mode 720x400x8
+Init: DirectDraw: Mode 720x480x8
+Init: DirectDraw: Mode 720x576x8
+Init: DirectDraw: Mode 800x600x8
+Init: DirectDraw: Mode 1024x768x8
+Init: DirectDraw: Mode 1128x634x8
+Init: DirectDraw: Mode 1280x720x8
+Init: DirectDraw: Mode 1280x960x8
+Init: DirectDraw: Mode 1280x1024x8
+Init: DirectDraw: Mode 1366x768x8
+Init: DirectDraw: Mode 1440x900x8
+Init: DirectDraw: Mode 1600x900x8
+Init: DirectDraw: Mode 1680x1050x8
+Init: DirectDraw: Mode 1760x990x8
+Init: DirectDraw: Mode 1920x1080x8
 Init: DirectDraw initialized successfully
 Init: Initializing Mouse Input Handler: Raw Input
 Init: Client initialized
@@ -74,32 +106,34 @@ ScriptLog: Login: Agora-chan
 Log: Possessed PlayerPawn: TFemale1 CUT-Logo-Map.TFemale0
 Init: Input system initialized for WindowsViewport0
 Log: Opened viewport
-Log: Bound to D3D9Drv.dll
-Log: Initializing D3D9Drv...
+Log: Bound to OpenGLDrv.dll
+Log: Initializing OpenGLDrv...
+Init: Evaluating context type Core_4_5...
+Init: Evaluating context type ES_3_1...
+Init: Evaluating context type Core_3_3...
+Init: GL_VENDOR     : ATI Technologies Inc.
+Init: GL_RENDERER   : AMD Radeon RX 6700 XT
+Init: GL_VERSION    : 3.3.0 Core Profile Context 24.20.01.02.240715
+Init: OpenGL: GL_MAX_TEXTURE_IMAGE_UNITS_ARB = 32
+Init: OpenGL: Texture capabilities: [MaxSize=16384, MaxLayers=8192, MaxAnisotropy=16, Invalidation, Inmutable Storage]
+Init: OpenGL: Framebuffer capabilities: [Blit, Multisample, Invalidation]
+Init: OpenGL: Uniform capabilities: [BlockSize=4194304] [Vert=36] [Geo=36] [Frag=36] [Align=16]
 Log: Enter SetRes()
-Log: D3D adapter driver      : amdxn32.dll
-Log: D3D adapter description : AMD Radeon RX 6700 XT
-Log: D3D adapter id          : 0x1002:0x73DF
-Init: Depth bits: 24
-Log: 8 Texture Mapping Units found
-Log: Trying to use S3TC extension.
-Log: MinLogTextureSize = 2
-Log: MaxLogTextureSize = 14
-Log: UseDetailAlpha = 1
+DevGraphics: Attempt (2) ResizeViewport(1, 1920, 1080, 4)
+Init: Depth bits: 16
 Log: Bound to Galaxy.dll
 Init: Galaxy is using DirectSound
 Init: Galaxy initialized
 DevAudio: Galaxy SetViewport: WindowsViewport0
 Init: Game engine initialized
-Log: Startup time: 2.613285 seconds
+Log: Startup time: 1.957639 seconds
 Warning: FIREWALL: Freed XP.SP2 Firewall Object
+Init: OpenGL: Created main Framebuffer: 1920x1080  HighQuality=true  AA=false
 ScriptLog: Creating root window: UMenu.UMenuRootWindow
 ScriptLog: Using Configured GUI Scale: 1.750000
 Log: Bound to udemo.dll
 udemo: Startup hack successful!
 Log: UDEMO: Successfully got list of demos
-Log: Relaunch: -changevideo
-Log: GetModuleFileName returned D:\Downloads\Vince's Canned Unreal Tournament\System\UnrealTournament.exe
 Log: appRequestExit(0)
 Exit: Preparing to exit.
 Log: Collecting garbage
@@ -141,6 +175,9 @@ Log: Unloading: Package CUT-Logo-Map
 Log: Unloading: Package CUT_Desktop
 Log: Unloading: Package Suprfist
 Init: Shut down moving brush tracker for Level CUT-Logo-Map.MyLevel
+Exit: Exit OpenGLRenderDevice0
+Exit: Destroying locals...
+Exit: Delete GL (0)
 Log: Unloading: Package UTMenu
 Log: Unloading: Package LadderSounds
 Log: Unbound to UWeb.dll
@@ -149,7 +186,7 @@ Log: Unloading: Package UTServerAdmin
 Log: Unloading: Package IpServer
 Log: Unloading: Package LadrArrow
 Log: Unloading: Package FCommandoSkins
-Log: Unbound to D3D9Drv.dll
+Log: Unbound to OpenGLDrv.dll
 Log: Unbound to Galaxy.dll
 DevAudio: Galaxy SetViewport: NULL
 Exit: Galaxy shut down
@@ -161,9 +198,8 @@ Log: Unloading: Package UTBrowser
 Log: Unloading: Package NWUltraGoreSSEd
 Log: Unbound to udemo.dll
 Log: Unloading: Package udemo
-Log: Unloading: Package RelicsBindings
-Log: Garbage: objects: 26034->0; refs: 0
+Log: Garbage: objects: 25102->0; refs: 0
 Exit: Object subsystem successfully closed.
 Exit: Exiting.
 Exit: Allocation checking disabled
-Log: Log file closed, 06/07/24 16:05:43
+Log: Log file closed, 09/22/24 21:15:15

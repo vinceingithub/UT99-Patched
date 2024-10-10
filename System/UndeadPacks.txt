@@ -1,0 +1,53 @@
+		      -----====CORPSEMANIA=====-----
+           ----====How to Make and Install Undead Packs====----
+v1.04a
+---------------
+How to Install:
+---------------
+1. Install just like any mutator(copy the .int and .u files of the UndeadPack
+   into your unrealtournament/system directory).
+2. If the UndeadPack uses new classes make sure you put the name of the UndeadPack
+   in your sever packages.
+
+-----------
+How to Run:
+-----------
+1. Start a practice session or a multiplayer server and select CorpseMania
+   as the gametype.
+
+2. Click Mutators and find the name of the UndeadPack you want to use 
+   (ex. UndeadPack(Skaarj)).  Then add the UndeadPack to the list of mutators
+   you want to use.  You can also select more then one UndeadPack to use at a time.
+   
+3. Then just setup CorpseMania as usual and when you start the game you see the new
+   Undead types spawning instead of the normal Undead.
+
+--------------------------
+How to Make an UndeadPack:
+--------------------------
+1. First load up UnrealEd and select classes.
+2. Then load the CorpseMania.u package.
+3. After loading up the CorpseMania package click on the info>Mutator>UndeadPack class.
+4. Right click on the UndeadPack class and select add new then type the name of the new
+   UndeadPack(ex. KrallUndeadPack) and the name of the new UndeadPack
+   package, you can use the same name if you want to.
+4. Your new UndeadPack class should bow be created under UndeadPack.
+5. Right click on the new UndeadPack and select default properties.
+6. Click the UndeadPack defualt property so that it says, NewGhost, NewGhoul, etc.
+7. Now all you have to do is to type the package and name of the class you want to replace
+   previous Undead with(ex. Unreali.Krall).
+8. After you are finished typing in all of the classes make sure you save your new UndeadPack.
+----
+9. When you are done saving it you must make a new .int file in your unrealtournament/system
+   directory.
+10. First load up notepad and make a new file called the name of your
+    UndeadPack(ex. KrallUndeadPack.int).
+11. Then type in the following lines:
+    [Public]
+    Object=(Name=UndeadPackPackage.UndeadPackClassName,Class=Class,MetaClass=Engine.Mutator,Description="Name of Undead Pack")
+12. That's all there is to making a new UndeadPack, you should now be able to run you new
+    UndeadPack following the How to Run steps above.
+
+
+created by: HOB
+http://www.planetunreal.com/HOB/

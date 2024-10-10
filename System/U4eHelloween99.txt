@@ -1,0 +1,101 @@
+************************************************************************************
+U4e package: new Unreal weapons and other classes designed for both MP and SP action
+************************************************************************************
+*** Code by Holger Huck, all new models by MaxSMoke, many skins by Martin Davies ***
+************************************************************************************
+
+************************************************************************************
+***Thanks to everyone who helped us win the EarlyBird-MakeSomethingUnrealContest!*** 
+************************************************************************************
+
+Halloween99 Special Edition Version (needs UTdemo v.338 or 348)
+---------------------------------------------------------------
+Features some special gimmicks (modified 8ball & shield) and
+a nice pitchfork as defaultweapon when using the new mutator
+"U4e Helloween99".
+(Hint: Try using the pitchfork together with the UDamage!)
+This edition does NOT need other U4e versions.
+
+Installation when using the non-UMOD version (otherwise same
+procedure as every UMOD):
+-------------------------
+1. Install WinZip (if not already done)
+2. Doubleclick on U4eHalloween99zip.zip, the WinZip window should pop up
+3. Extract U4eHW.u & .int into your TournamentDemo\system directory. When the
+   "Use Foldernames"-option is checked, simply extract everything to your
+   directory containing your TournamentDemo directory.
+
+Summon commands (to be typed at the in-game console, default hotkey is <TAB>):
+------------------------------------------------------------------------------
+"summon U4eHW.HW_Eightball"
+"summon U4eHW.HWpitchf"
+"summon U4eHW.HWshield"
+
+----------------------------------------------------------------
+================================================================
+Title                   : Unreal4ever
+Version                 : Halloween99 (needs UTdemo v.338 or 348)
+Release Date            : 30.9.1999
+Filename                : U4eHW.u
+Author(s)               : Holger Huck & Walter Sharrow & Martin Davies
+Email Address           : official: maxsmoke@planetunreal.com (use this for anything
+                            directly concerning U4e)
+                          Walter Sharrow: 
+                          Holger Huck: su002488@access.uni-dortmund.de
+Web Page                : http://www.planetunreal.com/u4e
+Description             : new weapons for UTdemo v.338
+Where to get this map   :
+Other levels by author  : Vigil99_220 (HH), TempleOfMe (WS),...
+Additional Credits to   :
+================================================================
+
+--- Play Information ---
+Game                    : UnrealTournament Demo
+Level Name              :
+Single Player           : YES
+Cooperative             : ...
+Deathmatch              : YES
+Dark Match              : YES
+Difficulty Settings     : YES
+New Sounds              : YES
+New Graphics            : YES
+NewUnrealScript         : YES
+External DLLs           : ...
+Known bugs              : Report everything
+
+--- Construction ---
+Editor(s) used          :
+Base                    : UnrealTournament Demo
+Construction Time       : Milleniums +/- a couple of aeons
+
+==============================================================
+Copyright / Permissions
+-----------------------
+Everything contained in this zipfile is copyrighted by Holger Huck and Walter Sharrow 1999.
+
+You are NOT allowed to commercially exploit anything contained in this zipfile, i.e. put it on a CD
+or any other electronic medium that is sold for money without our explicit written
+permission!
+
+You MAY distribute this zipfile through any electronic network (internet,FIDO, local BBS etc.),
+provided you include this file and leave the archive intact.
+
+You may use U4e in any map without asking permission, but you MUST give us credit.
+You may use U4e in any Unreal Multiplayer game.
+You may NOT modify this stuff without asking permission.
+
+You may contact us if you want to use parts of U4e in commercial applications,
+but don't even think of using U4e code or graphic fragments in commercial
+software without a proper contract with us - I'll take a look at every suspicious
+function of every UScript based game... 
+
+I'm sure I've forgotten some situation, but whatever you do... just
+GIVE US CREDIT.  :)
+
+----------------------
+UNREAL (c)1998 Epic Megagames, Inc.  All Rights Reserved.  Distributed by
+GT Interactive Software, Inc. under license.  UNREAL and the UNREAL logo are
+registered trademarks of Epic Megagames, Inc. 
+All other trademarks and tradenames are properties of their respective owners.
+
+

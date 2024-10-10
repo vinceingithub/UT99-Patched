@@ -1,0 +1,84 @@
+		    -----====CORPSEMANIA=====-----
+v1.04a
+-------------
+Installation:
+-------------
+1. run corpsemania.umod and follow the instructions.
+2. make sure "CorpseMania" is in your server packages if you are going
+   to start a server.
+
+-----------
+Game Modes:
+-----------
+1. DeathMatch: This game mode is like Last Man Standing but with a twist.
+   Everyone has a set amount of lives and when your lives run out you
+   become an immortal zombie(walk slowly, can only throw gibs, glow green,
+   etc.). As an immortal zombie you have
+   to try to kill the other players that aren't zombies. The last
+   player that's not a zombie wins.
+
+2. ZombieBeatDown: The Undead are rising from the ground for vengence against
+   the living and there's only one thing to do, grab your chainsaw. In this
+   game mode all of the players are on the same side with a set amount of lives
+   and a time limit. You have to try to survive for the time limit without losing
+   all of your lives. Hard to do considering that everywhere you look there are
+   Undead coming out of the ground. As long as one player is still alive everyone wins.
+   * You can also be on 4 different squads or not be on anyones squad.  You can select
+   your squad color the same way you do in ctf(by going into player setup and changing your
+   team color).  No matter what squad you are on though everyone is still on the same side
+   in ZombieBeatDown.
+
+3. GibCollect: Everyone is becoming a Zombie and there's only one way to stop it,
+   eat the most gibs.  The only way to score points in GibCollect is to collect gibs.
+   Whoever collects the set amount of gibs first and then kills another player wins.
+
+--------------
+Extra Options:
+--------------
+1. Lives: Sets how many Lives you have.
+2. Gibs: Sets how many Gibs you have to collect in GibCollect.
+3. Time Limit: How long you have to survive for in the ZombieBeatDown game mode.
+4. Rate of Undead: Sets how fast the Undead spawn in the ZombieBeatDown game mode.
+5. Amount of Gibs: Sets how many gibs spawn when people die.
+6. Ai Zombies: Check if you want Ai Zombies to spawn out of player carcasses.
+7. DarkMode: Dims the lights down on the map and makes it dark.
+8. ExessiveMode: Changes some of the skins and makes random events(exploding bodies,
+   random grenades, more kamizombies, etc.).
+9. ChainSawMode: Takes all of the weapons out of the level and makes everyone only
+   have a chainsaw.
+10. Max Undead: Sets the max amount of Undead that can spawn in the ZombieBeatDown game mode.
+
+----------------
+Types Of Undead:
+----------------
+1. Zombie: These are your everyday gib throwing, not very bright,
+   slow moving zombies
+2. KamiZombie:  These are your everyday self-destructing, slightly
+   faster then normal zombies. 
+3. ZombieMaster: This type of zombie is bigger then a normal zombie
+   and has more life. If you see one of these make sure you kill it
+   fast because everytime one of his thrown gibs hits the ground a
+   zombie will spawn there. 
+4. Ghost: This Undead is transperant, shoots blue tazers,
+   and flys around the level looking for the living. 
+5. Ghoul: These are the general Undead bigbosses. They throw fireballs
+   and if you get too close to them they will punch/throw you away.  
+
+------------
+UndeadPacks:
+------------
+   UndeadPacks are mutators specially made for CorpseMania that replace the original Undead
+   with anything from Skaarj to Grenades.  You can mix and match UndeadPacks and load up as
+   many as you want as a time.  For instructions on how to install and make your own
+   UndeadPacks load up the UndeadPacks.txt file that came with CorpseMania.zip.
+
+----------------------------
+Fixes and Additions for 1.04a
+----------------------------
+  *New Rate of Undead option.
+  *New Max Undead option.
+  *New UndeadPack support.
+  *Other misc. fixes and tweaks.
+
+created by: HOB
+http://www.planetunreal.com/HOB/

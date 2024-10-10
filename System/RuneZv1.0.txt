@@ -1,0 +1,59 @@
++===========================+
+|    RuneZ v1.0             |
+|    By: Necron_99          |
+|    Build Time: 6 Hours    |
+|    Date: 11-19-99         |
++===========================+
+
+What is "RuneZ v1.0"?
+"RuneZ v1.0" is a mutator for the Unreal Tournament Demo, and it may 
+work with the full version of UT. (Won't know till Epic Releases it). 
+It adds a series of new powerups to the game, called "Runes". Different 
+"Runes" give you different abilities.
+
+What types of "Runes" are there?
+Well, Runes can be broken up into three categories:
+
+	OFFENSIVE:
+	These Runes affect the way you do damage, and are unrelated to 
+	your health. They are:
+
+	Strength Rune: While you have this "Rune", you do 2x Damage.
+
+	Pestilence Rune: Everything around you takes some damage
+
+	DEFENSIVE:
+	These Runes affect your Health/Resistence to Damage. They are:
+
+	Regen Rune: Your health slowly regenerates up to 150%.
+
+	Resist Rune: You take only half damage.
+
+	OTHER:
+	These Runes affect both your Offensive and Defensive abilities, 
+	or neither. They include:
+
+	Vampire Rune: Whenever you hit some one, you get 50% of the 
+	damage you dealt added to your health.
+
+	Barb Rune: Whenever you hit some one who has this rune, you will 
+	take 50% of the damage you dealt. Becareful of using a strength rune/damage amplifier/fully loaded eightball on someone with this rune, as you will instantly kill yourself.
+
+Cool, is there anything else?
+Yes there is! You can customize the number of Runes spawned from a 
+UWindows dialog. (Select the "Mods" drop down from the menu bar on the 
+desktop. You can select the number of Runes to be used in each match.
+
+Kick Ass! How do I install it?
+Install it, simply extract the zipfile into your Tournament Demo 
+directory, then start a game of UT with RuneZ as your mutator.
+
+Where can I find more great mods like this?
+You can get them from my homepage.
+
+I found a bug/glitch/messup, where do I report it?
+You can email me at my address, alokim@home.net
+
+For more info on RuneZ check out:
+www.planetunreal.com/necron_99/RuneZ/RuneZ.html
+
