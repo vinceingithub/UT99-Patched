@@ -1,0 +1,17 @@
+[Setup]
+LocalProduct=Power Puff Girls
+ReadMe=Read me(PowerPuff Girls).txt
+SetupWindowTitle=PowerPuff Girls
+AutoplayWindowTitle=Power Puff Girls Options
+ProductURL=www.unreality.org/nosferatu/models.html
+VersionURL=.
+Developer=Kaoh Scarabea
+DeveloperURL=www.unreality.org/nosferatu/index.html
+Logo=Umod Wizard\Logo.bmp
+
+[UnrealTournamentRequirement]
+LocalProduct=UnrealTournament
+ProductURL=http://www.unrealtournament.com/
+VersionURL=http://unreal.epicgames.com/
+Developer=Epic Games, Inc.
+DeveloperURL=http://www.epicgames.com/

@@ -1,0 +1,7 @@
+[Public]
+Object=(Name=PowerPuffSkins.blos1,Class=Texture,Description="Blossom")
+Object=(Name=PowerPuffSkins.blos5blossom,Class=Texture,Description="Blossom")
+Object=(Name=PowerPuffSkins.bubl1,Class=Texture,Description="Bubbles")
+Object=(Name=PowerPuffSkins.bubl5bubbles,Class=Texture,Description="Bubbles")
+Object=(Name=PowerPuffSkins.bcup1,Class=Texture,Description="Buttercup")
+Object=(Name=PowerPuffSkins.bcup5buttercup,Class=Texture,Description="Buttercup")

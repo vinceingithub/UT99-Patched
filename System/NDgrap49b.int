@@ -1,0 +1,3 @@
+[Public]
+Object=(Name=NDgrap49b.GrapMut,Class=Class,MetaClass=Engine.Mutator,Description="NDgrap49b")
+Object=(Name=NDgrap49b.Grappling,Class=Class,MetaClass=Tournament.Weapon,Description="Grappling")

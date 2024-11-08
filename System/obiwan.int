@@ -1,0 +1,3 @@
+[Public]
+Object=(Name=obiwan.obiwanBot,Class=Class,MetaClass=BotPack.Bot,Description="American Psycho")
+Object=(Name=obiwan.obiwan,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="American Psycho")

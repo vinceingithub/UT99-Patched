@@ -1,0 +1,4 @@
+[Public]
+Object=(Name=Arumi.ArumiBot,Class=Class,MetaClass=BotPack.Bot,Description="Arumi")
+Object=(Name=Arumi.Arumi,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Arumi")
+

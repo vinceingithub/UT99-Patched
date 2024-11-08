@@ -1,0 +1,3 @@
+[Public]
+Object=(Name=PowerPuff.PowerPuffBot,Class=Class,MetaClass=BotPack.Bot,Description="PowePuff Girls")
+Object=(Name=PowerPuff.PowerPuff,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="PowerPuff Girls")
