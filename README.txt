@@ -21,6 +21,8 @@ CHANGES:
 + Added and configured the Bombing Run gamemode
 + Added and configured the Rocket Arena gamemode
 + Added and configured the XVehicles mod
++ Added and configured the Infection gamemode
++ Added and configured the Juggernaut gamemode
 + Cached all maps and textures used on the Agora Road's Unreal Tournament server
 + Patched game with years worth of various bug fixes and performance enhancements
 
