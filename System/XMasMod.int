@@ -1,0 +1,6 @@
+[Public]
+Object=(Name=XMasMod.XMasLights,Class=Class,MetaClass=Engine.Mutator,Description="XMas Lights")
+Object=(Name=XMasMod.XMas,Class=Class,MetaClass=Engine.Mutator,Description="XMas Pickups")
+Object=(Name=XMasMod.XMasRedeemer,Class=Class,MetaClass=Engine.Mutator,Description="XMas Redeemer")
+Object=(Name=XMasMod.Jets,Class=Class,MetaClass=Engine.Mutator,Description="All can fly")
+Object=(Name=XMasMod.XMasBlood,Class=Class,MetaClass=Engine.Mutator,Description="XMas More Color Blood")
