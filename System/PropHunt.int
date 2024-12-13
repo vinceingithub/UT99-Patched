@@ -1,0 +1,5 @@
+[Public]
+Object=(Name=PropHunt.PropHunt,Class=Class,MetaClass=Botpack.TournamentGameInfo)
+Preferences=(Caption="Prop Hunt",Parent="Game Types",Class=PropHunt.PropHunt,Immediate=True)
+
+GameClass="PropHunt.PropHunt"

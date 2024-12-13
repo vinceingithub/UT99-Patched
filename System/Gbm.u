@@ -1,0 +1,5 @@
+[Public]
+Object=(Name=GBM.GBMBot,Class=Class,MetaClass=BotPack.Bot,Description="GingerBread Man")
+Object=(Name=GBM.GBM,Class=Class,MetaClass=BotPack.TournamentPlayer,Description="GingerBread Man")
+Object=(Name=GBM.GBM,Class=Texture,Description="GBM")
+

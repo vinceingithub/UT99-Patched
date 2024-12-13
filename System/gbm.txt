@@ -1,0 +1,7 @@
+[public]
+Object=(Name=GBMSkins.GBM0,Class=Texture,Description="GBM")
+Object=(Name=GBMSkins.GBM1t_0,Class=Texture)
+Object=(Name=GBMSkins.GBM1t_1,Class=Texture)
+Object=(Name=GBMSkins.GBM1t_2,Class=Texture)
+Object=(Name=GBMSkins.GBM1t_3,Class=Texture)
+Object=(Name=GBMSkins.GBM2Face,Class=Texture,Description="GBM")
