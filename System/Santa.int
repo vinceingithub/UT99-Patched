@@ -1,3 +1,0 @@
-[Public]
-Object=(Name=Santa.Santa,Class=Class,MetaClass=Botpack.TournamentPlayer,Description="Santa")
-Object=(Name=Santa.Santabot,Class=Class,MetaClass=BotPack.Bot,Description="Santa")

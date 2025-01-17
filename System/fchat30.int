@@ -1,3 +1,0 @@
-[Public]
-Object=(Name=fchat30.FChat,Class=Class,MetaClass=Engine.Mutator,Description="Fragchat v30")
-Object=(Name=fchat30.FChatActor,Class=Class,MetaClass=Engine.Actor,Description="")
